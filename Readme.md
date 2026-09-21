@@ -9,6 +9,8 @@ or higher is a pass.
 Vidarbol runs entirely in your browser, with no accounts and no tracking.
 Your score never leaves your device.
 
+>> URL: https://vidarbol-3baa2.web.app/
+
 ## Fun Fact
 Vidarbol blends *vida*, the Spanish word for life, with *árbol*, the Spanish
 word for tree. The two words share the letter *a*, which joins them into one
