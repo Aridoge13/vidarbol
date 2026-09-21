@@ -1,0 +1,92 @@
+{
+    "date": "2026-10-17",
+    "clade": "Primates",
+    "difficulty": "hard",
+    "taxa": [
+        {
+            "id": "homo_sapiens",
+            "name": "Human",
+            "sci_name": "Homo sapiens",
+            "ott_id": 770315,
+            "image": ""
+        },
+        {
+            "id": "pan_troglodytes",
+            "name": "Chimpanzee",
+            "sci_name": "Pan troglodytes",
+            "ott_id": 417950,
+            "image": ""
+        },
+        {
+            "id": "gorilla_gorilla",
+            "name": "Western gorilla",
+            "sci_name": "Gorilla gorilla",
+            "ott_id": 417965,
+            "image": ""
+        },
+        {
+            "id": "pongo_abelii",
+            "name": "Sumatran orangutan",
+            "sci_name": "Pongo abelii",
+            "ott_id": null,
+            "image": ""
+        },
+        {
+            "id": "macaca_mulatta",
+            "name": "Rhesus macaque",
+            "sci_name": "Macaca mulatta",
+            "ott_id": null,
+            "image": ""
+        },
+        {
+            "id": "papio_anubis",
+            "name": "Olive baboon",
+            "sci_name": "Papio anubis",
+            "ott_id": 115449,
+            "image": ""
+        },
+        {
+            "id": "lemur_catta",
+            "name": "Ring-tailed lemur",
+            "sci_name": "Lemur catta",
+            "ott_id": null,
+            "image": ""
+        },
+        {
+            "id": "daubentonia_madagascariensis",
+            "name": "Aye-aye",
+            "sci_name": "Daubentonia madagascariensis",
+            "ott_id": 50727,
+            "image": ""
+        },
+        {
+            "id": "tarsius_tarsier",
+            "name": "Spectral tarsier",
+            "sci_name": "Tarsius tarsier",
+            "ott_id": null,
+            "image": ""
+        },
+        {
+            "id": "callithrix_jacchus",
+            "name": "Common marmoset",
+            "sci_name": "Callithrix jacchus",
+            "ott_id": null,
+            "image": ""
+        }
+    ],
+    "tree": {
+        "newick": "((lemur_catta:1,daubentonia_madagascariensis:1):1,(tarsius_tarsier:1,(callithrix_jacchus:1,((papio_anubis:1,macaca_mulatta:1):1,(pongo_abelii:1,(gorilla_gorilla:1,(pan_troglodytes:1,homo_sapiens:1):1):1):1):1):1):1);",
+        "leafIds": [
+            "lemur_catta",
+            "daubentonia_madagascariensis",
+            "tarsius_tarsier",
+            "callithrix_jacchus",
+            "papio_anubis",
+            "macaca_mulatta",
+            "pongo_abelii",
+            "gorilla_gorilla",
+            "pan_troglodytes",
+            "homo_sapiens"
+        ]
+    }
+}

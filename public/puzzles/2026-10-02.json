@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-02",
+  "clade": "Testudines",
+  "difficulty": "medium",
+  "taxa": [
+    {
+      "id": "testudo_hermanni",
+      "name": "Hermann's tortoise",
+      "sci_name": "Testudo hermanni",
+      "ott_id": 207422,
+      "image": ""
+    },
+    {
+      "id": "lepidochelys_olivacea",
+      "name": "Olive ridley sea turtle",
+      "sci_name": "Lepidochelys olivacea",
+      "ott_id": 430320,
+      "image": ""
+    },
+    {
+      "id": "caretta_caretta",
+      "name": "Loggerhead sea turtle",
+      "sci_name": "Caretta caretta",
+      "ott_id": 392505,
+      "image": ""
+    },
+    {
+      "id": "testudo_graeca",
+      "name": "Spur-thighed tortoise",
+      "sci_name": "Testudo graeca",
+      "ott_id": 207423,
+      "image": ""
+    },
+    {
+      "id": "chelonia_mydas",
+      "name": "Green sea turtle",
+      "sci_name": "Chelonia mydas",
+      "ott_id": 559133,
+      "image": ""
+    },
+    {
+      "id": "eretmochelys_imbricata",
+      "name": "Hawksbill sea turtle",
+      "sci_name": "Eretmochelys imbricata",
+      "ott_id": 430337,
+      "image": ""
+    },
+    {
+      "id": "chelydra_serpentina",
+      "name": "Common snapping turtle",
+      "sci_name": "Chelydra serpentina",
+      "ott_id": 587311,
+      "image": ""
+    },
+    {
+      "id": "geochelone_elegans",
+      "name": "Indian star tortoise",
+      "sci_name": "Geochelone elegans",
+      "ott_id": 302068,
+      "image": ""
+    },
+    {
+      "id": "trachemys_scripta",
+      "name": "Pond slider",
+      "sci_name": "Trachemys scripta",
+      "ott_id": 725741,
+      "image": ""
+    },
+    {
+      "id": "dermochelys_coriacea",
+      "name": "Leatherback sea turtle",
+      "sci_name": "Dermochelys coriacea",
+      "ott_id": 243403,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((((testudo_hermanni:1,testudo_graeca:1):1,geochelone_elegans:1):1,trachemys_scripta:1):1,((((caretta_caretta:1,lepidochelys_olivacea:1):1,eretmochelys_imbricata:1):1,chelonia_mydas:1):1,dermochelys_coriacea:1):1):1,chelydra_serpentina:1);",
+    "leafIds": [
+      "testudo_hermanni",
+      "testudo_graeca",
+      "geochelone_elegans",
+      "trachemys_scripta",
+      "caretta_caretta",
+      "lepidochelys_olivacea",
+      "eretmochelys_imbricata",
+      "chelonia_mydas",
+      "dermochelys_coriacea",
+      "chelydra_serpentina"
+    ]
+  }
+}

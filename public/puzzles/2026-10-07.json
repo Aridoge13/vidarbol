@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-07",
+  "clade": "Lepidoptera",
+  "difficulty": "hard",
+  "taxa": [
+    {
+      "id": "manduca_sexta",
+      "name": "Carolina sphinx moth",
+      "sci_name": "Manduca sexta",
+      "ott_id": 116647,
+      "image": ""
+    },
+    {
+      "id": "gonepteryx_rhamni",
+      "name": "Common brimstone",
+      "sci_name": "Gonepteryx rhamni",
+      "ott_id": 274183,
+      "image": ""
+    },
+    {
+      "id": "papilio_machaon",
+      "name": "Old World swallowtail",
+      "sci_name": "Papilio machaon",
+      "ott_id": 1018322,
+      "image": ""
+    },
+    {
+      "id": "danaus_plexippus",
+      "name": "Monarch butterfly",
+      "sci_name": "Danaus plexippus",
+      "ott_id": 190091,
+      "image": ""
+    },
+    {
+      "id": "attacus_atlas",
+      "name": "Atlas moth",
+      "sci_name": "Attacus atlas",
+      "ott_id": 180964,
+      "image": ""
+    },
+    {
+      "id": "vanessa_atalanta",
+      "name": "Red admiral",
+      "sci_name": "Vanessa atalanta",
+      "ott_id": 581038,
+      "image": ""
+    },
+    {
+      "id": "aglais_io",
+      "name": "European peacock",
+      "sci_name": "Aglais io",
+      "ott_id": 1020541,
+      "image": ""
+    },
+    {
+      "id": "bombyx_mori",
+      "name": "Domestic silkmoth",
+      "sci_name": "Bombyx mori",
+      "ott_id": 440274,
+      "image": ""
+    },
+    {
+      "id": "pieris_brassicae",
+      "name": "Large white",
+      "sci_name": "Pieris brassicae",
+      "ott_id": 167943,
+      "image": ""
+    },
+    {
+      "id": "actias_luna",
+      "name": "Luna moth",
+      "sci_name": "Actias luna",
+      "ott_id": 180968,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((gonepteryx_rhamni:1,pieris_brassicae:1):1,(danaus_plexippus:1,(aglais_io:1,vanessa_atalanta:1):1):1):1,papilio_machaon:1):1,(((actias_luna:1,attacus_atlas:1):1,manduca_sexta:1):1,bombyx_mori:1):1);",
+    "leafIds": [
+      "gonepteryx_rhamni",
+      "pieris_brassicae",
+      "danaus_plexippus",
+      "aglais_io",
+      "vanessa_atalanta",
+      "papilio_machaon",
+      "actias_luna",
+      "attacus_atlas",
+      "manduca_sexta",
+      "bombyx_mori"
+    ]
+  }
+}

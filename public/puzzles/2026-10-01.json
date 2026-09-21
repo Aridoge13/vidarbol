@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-01",
+  "clade": "Rodentia",
+  "difficulty": "medium",
+  "taxa": [
+    {
+      "id": "hydrochoerus_hydrochaeris",
+      "name": "Capybara",
+      "sci_name": "Hydrochoerus hydrochaeris",
+      "ott_id": 744018,
+      "image": ""
+    },
+    {
+      "id": "rattus_rattus",
+      "name": "Black rat",
+      "sci_name": "Rattus rattus",
+      "ott_id": 271571,
+      "image": ""
+    },
+    {
+      "id": "mus_musculus",
+      "name": "House mouse",
+      "sci_name": "Mus musculus",
+      "ott_id": 542509,
+      "image": ""
+    },
+    {
+      "id": "castor_fiber",
+      "name": "Eurasian beaver",
+      "sci_name": "Castor fiber",
+      "ott_id": 1048188,
+      "image": ""
+    },
+    {
+      "id": "marmota_marmota",
+      "name": "Alpine marmot",
+      "sci_name": "Marmota marmota",
+      "ott_id": 630991,
+      "image": ""
+    },
+    {
+      "id": "cavia_porcellus",
+      "name": "Guinea pig",
+      "sci_name": "Cavia porcellus",
+      "ott_id": 744000,
+      "image": ""
+    },
+    {
+      "id": "castor_canadensis",
+      "name": "North American beaver",
+      "sci_name": "Castor canadensis",
+      "ott_id": 886085,
+      "image": ""
+    },
+    {
+      "id": "sciurus_vulgaris",
+      "name": "Eurasian red squirrel",
+      "sci_name": "Sciurus vulgaris",
+      "ott_id": 286193,
+      "image": ""
+    },
+    {
+      "id": "cricetomys_gambianus",
+      "name": "Gambian pouched rat",
+      "sci_name": "Cricetomys gambianus",
+      "ott_id": 922511,
+      "image": ""
+    },
+    {
+      "id": "rattus_norvegicus",
+      "name": "Brown rat",
+      "sci_name": "Rattus norvegicus",
+      "ott_id": 271555,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((castor_fiber:1,castor_canadensis:1):1,(((rattus_norvegicus:1,rattus_rattus:1):1,mus_musculus:1):1,cricetomys_gambianus:1):1):1,(hydrochoerus_hydrochaeris:1,cavia_porcellus:1):1):1,(sciurus_vulgaris:1,marmota_marmota:1):1);",
+    "leafIds": [
+      "castor_fiber",
+      "castor_canadensis",
+      "rattus_norvegicus",
+      "rattus_rattus",
+      "mus_musculus",
+      "cricetomys_gambianus",
+      "hydrochoerus_hydrochaeris",
+      "cavia_porcellus",
+      "sciurus_vulgaris",
+      "marmota_marmota"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-11",
+  "clade": "Mammals",
+  "difficulty": "hard",
+  "taxa": [
+    {
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
+      "image": ""
+    },
+    {
+      "id": "panthera_leo",
+      "name": "Lion",
+      "sci_name": "Panthera leo",
+      "ott_id": 563151,
+      "image": ""
+    },
+    {
+      "id": "mus_musculus",
+      "name": "House mouse",
+      "sci_name": "Mus musculus",
+      "ott_id": 542509,
+      "image": ""
+    },
+    {
+      "id": "loxodonta_africana",
+      "name": "African bush elephant",
+      "sci_name": "Loxodonta africana",
+      "ott_id": 541936,
+      "image": ""
+    },
+    {
+      "id": "ornithorhynchus_anatinus",
+      "name": "Platypus",
+      "sci_name": "Ornithorhynchus anatinus",
+      "ott_id": 962377,
+      "image": ""
+    },
+    {
+      "id": "balaenoptera_musculus",
+      "name": "Blue whale",
+      "sci_name": "Balaenoptera musculus",
+      "ott_id": 226190,
+      "image": ""
+    },
+    {
+      "id": "oryctolagus_cuniculus",
+      "name": "European rabbit",
+      "sci_name": "Oryctolagus cuniculus",
+      "ott_id": 864596,
+      "image": ""
+    },
+    {
+      "id": "macropus_giganteus",
+      "name": "Eastern grey kangaroo",
+      "sci_name": "Macropus giganteus",
+      "ott_id": 597239,
+      "image": ""
+    },
+    {
+      "id": "didelphis_virginiana",
+      "name": "Virginia opossum",
+      "sci_name": "Didelphis virginiana",
+      "ott_id": 919171,
+      "image": ""
+    },
+    {
+      "id": "eulipotyphla",
+      "name": "Eulipotyphla",
+      "sci_name": "Eulipotyphla",
+      "ott_id": 796664,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((didelphis_virginiana:1,macropus_giganteus:1):1,((((oryctolagus_cuniculus:1,mus_musculus:1):1,homo_sapiens:1):1,((panthera_leo:1,balaenoptera_musculus:1):1,eulipotyphla:1):1):1,loxodonta_africana:1):1):1,ornithorhynchus_anatinus:1);",
+    "leafIds": [
+      "didelphis_virginiana",
+      "macropus_giganteus",
+      "oryctolagus_cuniculus",
+      "mus_musculus",
+      "homo_sapiens",
+      "panthera_leo",
+      "balaenoptera_musculus",
+      "eulipotyphla",
+      "loxodonta_africana",
+      "ornithorhynchus_anatinus"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-13",
+  "clade": "Felidae",
+  "difficulty": "easy",
+  "taxa": [
+    {
+      "id": "felis_catus",
+      "name": "Domestic cat",
+      "sci_name": "Felis catus",
+      "ott_id": 563166,
+      "image": ""
+    },
+    {
+      "id": "panthera_pardus",
+      "name": "Leopard",
+      "sci_name": "Panthera pardus",
+      "ott_id": 42324,
+      "image": ""
+    },
+    {
+      "id": "lynx_lynx",
+      "name": "Eurasian lynx",
+      "sci_name": "Lynx lynx",
+      "ott_id": 886829,
+      "image": ""
+    },
+    {
+      "id": "panthera_leo",
+      "name": "Lion",
+      "sci_name": "Panthera leo",
+      "ott_id": 563151,
+      "image": ""
+    },
+    {
+      "id": "panthera_tigris",
+      "name": "Tiger",
+      "sci_name": "Panthera tigris",
+      "ott_id": 42314,
+      "image": ""
+    },
+    {
+      "id": "prionailurus_bengalensis",
+      "name": "Leopard cat",
+      "sci_name": "Prionailurus bengalensis",
+      "ott_id": 280108,
+      "image": ""
+    },
+    {
+      "id": "puma_concolor",
+      "name": "Cougar",
+      "sci_name": "Puma concolor",
+      "ott_id": 42307,
+      "image": ""
+    },
+    {
+      "id": "neofelis_nebulosa",
+      "name": "Clouded leopard",
+      "sci_name": "Neofelis nebulosa",
+      "ott_id": 763016,
+      "image": ""
+    },
+    {
+      "id": "panthera_onca",
+      "name": "Jaguar",
+      "sci_name": "Panthera onca",
+      "ott_id": 42322,
+      "image": ""
+    },
+    {
+      "id": "acinonyx_jubatus",
+      "name": "Cheetah",
+      "sci_name": "Acinonyx jubatus",
+      "ott_id": 752759,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((panthera_pardus:1,(panthera_leo:1,panthera_onca:1):1):1,panthera_tigris:1):1,neofelis_nebulosa:1):1,(((felis_catus:1,prionailurus_bengalensis:1):1,(puma_concolor:1,acinonyx_jubatus:1):1):1,lynx_lynx:1):1);",
+    "leafIds": [
+      "panthera_pardus",
+      "panthera_leo",
+      "panthera_onca",
+      "panthera_tigris",
+      "neofelis_nebulosa",
+      "felis_catus",
+      "prionailurus_bengalensis",
+      "puma_concolor",
+      "acinonyx_jubatus",
+      "lynx_lynx"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-21",
+  "clade": "Hominidae",
+  "difficulty": "easy",
+  "taxa": [
+    {
+      "id": "gorilla_beringei",
+      "name": "Eastern gorilla",
+      "sci_name": "Gorilla beringei",
+      "ott_id": 351685,
+      "image": ""
+    },
+    {
+      "id": "gorilla_gorilla",
+      "name": "Western gorilla",
+      "sci_name": "Gorilla gorilla",
+      "ott_id": 417965,
+      "image": ""
+    },
+    {
+      "id": "pongo_pygmaeus",
+      "name": "Bornean orangutan",
+      "sci_name": "Pongo pygmaeus",
+      "ott_id": 770302,
+      "image": ""
+    },
+    {
+      "id": "pongo_tapanuliensis",
+      "name": "Tapanuli orangutan",
+      "sci_name": "Pongo tapanuliensis",
+      "ott_id": 7067552,
+      "image": ""
+    },
+    {
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
+      "image": ""
+    },
+    {
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
+      "image": ""
+    },
+    {
+      "id": "pan_troglodytes",
+      "name": "Chimpanzee",
+      "sci_name": "Pan troglodytes",
+      "ott_id": 417950,
+      "image": ""
+    },
+    {
+      "id": "pan_paniscus",
+      "name": "Bonobo",
+      "sci_name": "Pan paniscus",
+      "ott_id": 158484,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((pan_troglodytes:1,pan_paniscus:1):1,homo_sapiens:1):1,(gorilla_beringei:1,gorilla_gorilla:1):1):1,(pongo_abelii:1,pongo_pygmaeus:1,pongo_tapanuliensis:1):1);",
+    "leafIds": [
+      "pan_troglodytes",
+      "pan_paniscus",
+      "homo_sapiens",
+      "gorilla_beringei",
+      "gorilla_gorilla",
+      "pongo_abelii",
+      "pongo_pygmaeus",
+      "pongo_tapanuliensis"
+    ]
+  }
+}

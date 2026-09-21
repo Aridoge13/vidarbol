@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-08",
+  "clade": "Coleoptera",
+  "difficulty": "hard",
+  "taxa": [
+    {
+      "id": "coccinella_septempunctata",
+      "name": "Seven-spot ladybird",
+      "sci_name": "Coccinella septempunctata",
+      "ott_id": 343294,
+      "image": ""
+    },
+    {
+      "id": "cetonia_aurata",
+      "name": "Rose chafer",
+      "sci_name": "Cetonia aurata",
+      "ott_id": 3706,
+      "image": ""
+    },
+    {
+      "id": "dytiscus_marginalis",
+      "name": "Great diving beetle",
+      "sci_name": "Dytiscus marginalis",
+      "ott_id": 551469,
+      "image": ""
+    },
+    {
+      "id": "anoplophora_glabripennis",
+      "name": "Asian long-horned beetle",
+      "sci_name": "Anoplophora glabripennis",
+      "ott_id": 827047,
+      "image": ""
+    },
+    {
+      "id": "tenebrio_molitor",
+      "name": "Yellow mealworm beetle",
+      "sci_name": "Tenebrio molitor",
+      "ott_id": 1093470,
+      "image": ""
+    },
+    {
+      "id": "lampyris_noctiluca",
+      "name": "Common glow-worm",
+      "sci_name": "Lampyris noctiluca",
+      "ott_id": 531391,
+      "image": ""
+    },
+    {
+      "id": "scarabaeus_sacer",
+      "name": "Sacred scarab",
+      "sci_name": "Scarabaeus sacer",
+      "ott_id": 720405,
+      "image": ""
+    },
+    {
+      "id": "harmonia_axyridis",
+      "name": "Harlequin ladybird",
+      "sci_name": "Harmonia axyridis",
+      "ott_id": 258281,
+      "image": ""
+    },
+    {
+      "id": "lucanus_cervus",
+      "name": "Stag beetle",
+      "sci_name": "Lucanus cervus",
+      "ott_id": 867953,
+      "image": ""
+    },
+    {
+      "id": "leptinotarsa_decemlineata",
+      "name": "Colorado potato beetle",
+      "sci_name": "Leptinotarsa decemlineata",
+      "ott_id": 185597,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((((anoplophora_glabripennis:1,leptinotarsa_decemlineata:1):1,tenebrio_molitor:1):1,(coccinella_septempunctata:1,harmonia_axyridis:1):1):1,lampyris_noctiluca:1):1,((scarabaeus_sacer:1,cetonia_aurata:1):1,lucanus_cervus:1):1):1,dytiscus_marginalis:1);",
+    "leafIds": [
+      "anoplophora_glabripennis",
+      "leptinotarsa_decemlineata",
+      "tenebrio_molitor",
+      "coccinella_septempunctata",
+      "harmonia_axyridis",
+      "lampyris_noctiluca",
+      "scarabaeus_sacer",
+      "cetonia_aurata",
+      "lucanus_cervus",
+      "dytiscus_marginalis"
+    ]
+  }
+}

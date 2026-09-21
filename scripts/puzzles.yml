@@ -1,0 +1,514 @@
+clades:
+  # ---------------------------------------------------------------------
+  # Order/family-level: deep and narrow. One branch of the tree,
+  # explored relatively fully.
+  # ---------------------------------------------------------------------
+
+  - name: Hominidae
+    difficulty: easy
+    species:
+      - sci: Homo sapiens
+        common: Human
+      - sci: Pan troglodytes
+        common: Chimpanzee
+      - sci: Pan paniscus
+        common: Bonobo
+      - sci: Gorilla gorilla
+        common: Western gorilla
+      - sci: Gorilla beringei
+        common: Eastern gorilla
+      - sci: Pongo abelii
+        common: Sumatran orangutan
+      - sci: Pongo tapanuliensis
+        common: Tapanuli orangutan
+      - sci: Pongo pygmaeus
+        common: Bornean orangutan
+
+  - name: Felidae
+    difficulty: easy
+    species:
+      - sci: Panthera leo
+        common: Lion
+      - sci: Panthera tigris
+        common: Tiger
+      - sci: Panthera pardus
+        common: Leopard
+      - sci: Panthera onca
+        common: Jaguar
+      - sci: Acinonyx jubatus
+        common: Cheetah
+      - sci: Puma concolor
+        common: Cougar
+      - sci: Lynx lynx
+        common: Eurasian lynx
+      - sci: Neofelis nebulosa
+        common: Clouded leopard
+      - sci: Prionailurus bengalensis
+        common: Leopard cat
+      - sci: Felis catus
+        common: Domestic cat
+
+  - name: Ursidae
+    difficulty: easy
+    species:
+      - sci: Ursus arctos
+        common: Brown bear
+      - sci: Ursus maritimus
+        common: Polar bear
+      - sci: Ursus americanus
+        common: American black bear
+      - sci: Ursus thibetanus
+        common: Asian black bear
+      - sci: Ailuropoda melanoleuca
+        common: Giant panda
+      - sci: Tremarctos ornatus
+        common: Spectacled bear
+      - sci: Helarctos malayanus
+        common: Sun bear
+      - sci: Melursus ursinus
+        common: Sloth bear
+
+  - name: Canidae
+    difficulty: easy
+    species:
+      - sci: Canis lupus
+        common: Gray wolf
+      - sci: Canis latrans
+        common: Coyote
+      - sci: Canis aureus
+        common: Golden jackal
+      - sci: Canis simensis
+        common: Ethiopian wolf
+      - sci: Vulpes vulpes
+        common: Red fox
+      - sci: Vulpes zerda
+        common: Fennec fox
+      - sci: Urocyon cinereoargenteus
+        common: Gray fox
+      - sci: Lycaon pictus
+        common: African wild dog
+      - sci: Speothos venaticus
+        common: Bush dog
+      - sci: Otocyon megalotis
+        common: Bat-eared fox
+
+  - name: Lagomorpha
+    difficulty: easy
+    species:
+      - sci: Oryctolagus cuniculus
+        common: European rabbit
+      - sci: Lepus europaeus
+        common: European hare
+      - sci: Sylvilagus floridanus
+        common: Eastern cottontail
+      - sci: Lepus americanus
+        common: Snowshoe hare
+      - sci: Lepus timidus
+        common: Mountain hare
+      - sci: Lepus arcticus
+        common: Arctic hare
+      - sci: Lepus californicus
+        common: Black-tailed jackrabbit
+      - sci: Lepus townsendii
+        common: White-tailed jackrabbit
+      - sci: Sylvilagus audubonii
+        common: Desert cottontail
+      - sci: Ochotona princeps
+        common: American pika
+
+  # ---------------------------------------------------------------------
+  # Order-level: medium breadth.
+  # ---------------------------------------------------------------------
+
+  - name: Aves
+    difficulty: medium
+    species:
+      - sci: Struthio camelus
+        common: Common ostrich
+      - sci: Gallus gallus
+        common: Red junglefowl
+      - sci: Anas platyrhynchos
+        common: Mallard
+      - sci: Columba livia
+        common: Rock dove
+      - sci: Psittacus erithacus
+        common: African grey parrot
+      - sci: Bubo bubo
+        common: Eurasian eagle-owl
+      - sci: Corvus corax
+        common: Common raven
+      - sci: Passer domesticus
+        common: House sparrow
+      - sci: Apteryx australis
+        common: Southern brown kiwi
+      - sci: Spheniscus demersus
+        common: African penguin
+
+  - name: Passeriformes
+    difficulty: medium
+    species:
+      - sci: Passer domesticus
+        common: House sparrow
+      - sci: Corvus corax
+        common: Common raven
+      - sci: Erithacus rubecula
+        common: European robin
+      - sci: Hirundo rustica
+        common: Barn swallow
+      - sci: Troglodytes troglodytes
+        common: Eurasian wren
+      - sci: Turdus merula
+        common: Common blackbird
+      - sci: Sturnus vulgaris
+        common: Common starling
+      - sci: Pica pica
+        common: Eurasian magpie
+      - sci: Cyanistes caeruleus
+        common: Eurasian blue tit
+      - sci: Taeniopygia guttata
+        common: Zebra finch
+
+  - name: Cetacea
+    difficulty: medium
+    species:
+      - sci: Balaenoptera musculus
+        common: Blue whale
+      - sci: Balaenoptera physalus
+        common: Fin whale
+      - sci: Megaptera novaeangliae
+        common: Humpback whale
+      - sci: Eubalaena glacialis
+        common: North Atlantic right whale
+      - sci: Physeter macrocephalus
+        common: Sperm whale
+      - sci: Orcinus orca
+        common: Orca
+      - sci: Tursiops truncatus
+        common: Common bottlenose dolphin
+      - sci: Delphinus delphis
+        common: Common dolphin
+      - sci: Phocoena phocoena
+        common: Harbour porpoise
+      - sci: Monodon monoceros
+        common: Narwhal
+
+  - name: Delphinidae
+    difficulty: medium
+    species:
+      - sci: Orcinus orca
+        common: Orca
+      - sci: Tursiops truncatus
+        common: Common bottlenose dolphin
+      - sci: Tursiops aduncus
+        common: Indo-Pacific bottlenose dolphin
+      - sci: Delphinus delphis
+        common: Common dolphin
+      - sci: Delphinus capensis
+        common: Long-beaked common dolphin
+      - sci: Globicephala melas
+        common: Long-finned pilot whale
+      - sci: Globicephala macrorhynchus
+        common: Short-finned pilot whale
+      - sci: Sousa chinensis
+        common: Indo-Pacific humpback dolphin
+      - sci: Stenella attenuata
+        common: Pantropical spotted dolphin
+      - sci: Lagenorhynchus albirostris
+        common: White-beaked dolphin
+
+  - name: Mustelidae
+    difficulty: medium
+    species:
+      - sci: Mustela nivalis
+        common: Least weasel
+      - sci: Mustela erminea
+        common: Stoat
+      - sci: Mustela putorius
+        common: European polecat
+      - sci: Neogale vison
+        common: American mink
+      - sci: Lutra lutra
+        common: Eurasian otter
+      - sci: Enhydra lutris
+        common: Sea otter
+      - sci: Meles meles
+        common: European badger
+      - sci: Gulo gulo
+        common: Wolverine
+      - sci: Taxidea taxus
+        common: American badger
+      - sci: Martes martes
+        common: European pine marten
+
+  - name: Rodentia
+    difficulty: medium
+    species:
+      - sci: Mus musculus
+        common: House mouse
+      - sci: Rattus norvegicus
+        common: Brown rat
+      - sci: Rattus rattus
+        common: Black rat
+      - sci: Cavia porcellus
+        common: Guinea pig
+      - sci: Sciurus vulgaris
+        common: Eurasian red squirrel
+      - sci: Castor fiber
+        common: Eurasian beaver
+      - sci: Castor canadensis
+        common: North American beaver
+      - sci: Hydrochoerus hydrochaeris
+        common: Capybara
+      - sci: Marmota marmota
+        common: Alpine marmot
+      - sci: Cricetomys gambianus
+        common: Gambian pouched rat
+
+  - name: Testudines
+    difficulty: medium
+    species:
+      - sci: Chelonia mydas
+        common: Green sea turtle
+      - sci: Caretta caretta
+        common: Loggerhead sea turtle
+      - sci: Dermochelys coriacea
+        common: Leatherback sea turtle
+      - sci: Eretmochelys imbricata
+        common: Hawksbill sea turtle
+      - sci: Lepidochelys olivacea
+        common: Olive ridley sea turtle
+      - sci: Testudo graeca
+        common: Spur-thighed tortoise
+      - sci: Testudo hermanni
+        common: Hermann's tortoise
+      - sci: Geochelone elegans
+        common: Indian star tortoise
+      - sci: Trachemys scripta
+        common: Pond slider
+      - sci: Chelydra serpentina
+        common: Common snapping turtle
+
+  - name: Crocodilia
+    difficulty: medium
+    species:
+      - sci: Crocodylus porosus
+        common: Saltwater crocodile
+      - sci: Crocodylus niloticus
+        common: Nile crocodile
+      - sci: Crocodylus acutus
+        common: American crocodile
+      - sci: Crocodylus palustris
+        common: Mugger crocodile
+      - sci: Crocodylus johnstoni
+        common: Australian freshwater crocodile
+      - sci: Crocodylus siamensis
+        common: Siamese crocodile
+      - sci: Alligator mississippiensis
+        common: American alligator
+      - sci: Alligator sinensis
+        common: Chinese alligator
+      - sci: Melanosuchus niger
+        common: Black caiman
+      - sci: Gavialis gangeticus
+        common: Gharial
+
+  - name: Anura
+    difficulty: medium
+    species:
+      - sci: Rana temporaria
+        common: Common frog
+      - sci: Pelophylax ridibundus
+        common: Marsh frog
+      - sci: Lithobates catesbeianus
+        common: American bullfrog
+      - sci: Xenopus laevis
+        common: African clawed frog
+      - sci: Dendrobates tinctorius
+        common: Dyeing poison dart frog
+      - sci: Phyllobates terribilis
+        common: Golden poison frog
+      - sci: Hyla arborea
+        common: European tree frog
+      - sci: Bufo bufo
+        common: Common toad
+      - sci: Bombina bombina
+        common: European fire-bellied toad
+      - sci: Eleutherodactylus coqui
+        common: Common coqui
+
+  # ---------------------------------------------------------------------
+  # Broad taxonomic groups: harder puzzles with greater phylogenetic
+  # breadth.
+  # ---------------------------------------------------------------------
+
+  - name: Primates
+    difficulty: hard
+    species:
+      - sci: Homo sapiens
+        common: Human
+      - sci: Pan troglodytes
+        common: Chimpanzee
+      - sci: Gorilla gorilla
+        common: Western gorilla
+      - sci: Pongo abelii
+        common: Sumatran orangutan
+      - sci: Macaca mulatta
+        common: Rhesus macaque
+      - sci: Papio anubis
+        common: Olive baboon
+      - sci: Lemur catta
+        common: Ring-tailed lemur
+      - sci: Daubentonia madagascariensis
+        common: Aye-aye
+      - sci: Tarsius tarsier
+        common: Spectral tarsier
+      - sci: Callithrix jacchus
+        common: Common marmoset
+
+  - name: Squamata
+    difficulty: hard
+    species:
+      - sci: Varanus komodoensis
+        common: Komodo dragon
+      - sci: Varanus salvator
+        common: Asian water monitor
+      - sci: Python bivittatus
+        common: Burmese python
+      - sci: Python regius
+        common: Ball python
+      - sci: Naja naja
+        common: Indian cobra
+      - sci: Ophiophagus hannah
+        common: King cobra
+      - sci: Chamaeleo chamaeleon
+        common: Common chameleon
+      - sci: Iguana iguana
+        common: Green iguana
+      - sci: Gekko gecko
+        common: Tokay gecko
+      - sci: Pogona vitticeps
+        common: Central bearded dragon
+
+  - name: Lepidoptera
+    difficulty: hard
+    species:
+      - sci: Danaus plexippus
+        common: Monarch butterfly
+      - sci: Papilio machaon
+        common: Old World swallowtail
+      - sci: Pieris brassicae
+        common: Large white
+      - sci: Vanessa atalanta
+        common: Red admiral
+      - sci: Aglais io
+        common: European peacock
+      - sci: Gonepteryx rhamni
+        common: Common brimstone
+      - sci: Bombyx mori
+        common: Domestic silkmoth
+      - sci: Manduca sexta
+        common: Carolina sphinx moth
+      - sci: Attacus atlas
+        common: Atlas moth
+      - sci: Actias luna
+        common: Luna moth
+
+  - name: Coleoptera
+    difficulty: hard
+    species:
+      - sci: Coccinella septempunctata
+        common: Seven-spot ladybird
+      - sci: Lucanus cervus
+        common: Stag beetle
+      - sci: Scarabaeus sacer
+        common: Sacred scarab
+      - sci: Lampyris noctiluca
+        common: Common glow-worm
+      - sci: Dytiscus marginalis
+        common: Great diving beetle
+      - sci: Cetonia aurata
+        common: Rose chafer
+      - sci: Anoplophora glabripennis
+        common: Asian long-horned beetle
+      - sci: Harmonia axyridis
+        common: Harlequin ladybird
+      - sci: Leptinotarsa decemlineata
+        common: Colorado potato beetle
+      - sci: Tenebrio molitor
+        common: Yellow mealworm beetle
+
+  - name: Diptera
+    difficulty: hard
+    species:
+      - sci: Drosophila melanogaster
+        common: Fruit fly
+      - sci: Musca domestica
+        common: House fly
+      - sci: Culex pipiens
+        common: Common house mosquito
+      - sci: Anopheles gambiae
+        common: African malaria mosquito
+      - sci: Aedes aegypti
+        common: Yellow fever mosquito
+      - sci: Aedes albopictus
+        common: Asian tiger mosquito
+      - sci: Glossina morsitans
+        common: Tsetse fly
+      - sci: Simulium damnosum
+        common: Black fly
+      - sci: Tipula paludosa
+        common: Marsh crane fly
+      - sci: Calliphora vicina
+        common: Bluebottle fly
+
+  # ---------------------------------------------------------------------
+  # Broad: species distributed across major sub-clades.
+  # ---------------------------------------------------------------------
+
+  - name: Vertebrates
+    difficulty: hard
+    species:
+      - sci: Petromyzon marinus
+        common: Sea lamprey
+      - sci: Carcharodon carcharias
+        common: Great white shark
+      - sci: Manta birostris
+        common: Giant oceanic manta ray
+      - sci: Latimeria chalumnae
+        common: West Indian Ocean coelacanth
+      - sci: Danio rerio
+        common: Zebrafish
+      - sci: Rana temporaria
+        common: Common frog
+      - sci: Chelonia mydas
+        common: Green sea turtle
+      - sci: Crocodylus porosus
+        common: Saltwater crocodile
+      - sci: Gallus gallus
+        common: Red junglefowl
+      - sci: Homo sapiens
+        common: Human
+
+  - name: Mammals
+    difficulty: hard
+    species:
+      - sci: Ornithorhynchus anatinus
+        common: Platypus
+      - sci: Didelphis virginiana
+        common: Virginia opossum
+      - sci: Macropus giganteus
+        common: Eastern grey kangaroo
+      - sci: Eulipotyphla
+        common: Eulipotyphla
+      - sci: Loxodonta africana
+        common: African bush elephant
+      - sci: Panthera leo
+        common: Lion
+      - sci: Balaenoptera musculus
+        common: Blue whale
+      - sci: Mus musculus
+        common: House mouse
+      - sci: Oryctolagus cuniculus
+        common: European rabbit
+      - sci: Homo sapiens
+        common: Human

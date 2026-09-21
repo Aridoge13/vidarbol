@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-23",
+  "clade": "Ursidae",
+  "difficulty": "easy",
+  "taxa": [
+    {
+      "id": "melursus_ursinus",
+      "name": "Sloth bear",
+      "sci_name": "Melursus ursinus",
+      "ott_id": 297463,
+      "image": ""
+    },
+    {
+      "id": "ailuropoda_melanoleuca",
+      "name": "Giant panda",
+      "sci_name": "Ailuropoda melanoleuca",
+      "ott_id": 872573,
+      "image": ""
+    },
+    {
+      "id": "helarctos_malayanus",
+      "name": "Sun bear",
+      "sci_name": "Helarctos malayanus",
+      "ott_id": 679701,
+      "image": ""
+    },
+    {
+      "id": "ursus_americanus",
+      "name": "American black bear",
+      "sci_name": "Ursus americanus",
+      "ott_id": 872577,
+      "image": ""
+    },
+    {
+      "id": "ursus_thibetanus",
+      "name": "Asian black bear",
+      "sci_name": "Ursus thibetanus",
+      "ott_id": 872580,
+      "image": ""
+    },
+    {
+      "id": "tremarctos_ornatus",
+      "name": "Spectacled bear",
+      "sci_name": "Tremarctos ornatus",
+      "ott_id": 679667,
+      "image": ""
+    },
+    {
+      "id": "ursus_arctos",
+      "name": "Brown bear",
+      "sci_name": "Ursus arctos",
+      "ott_id": 872567,
+      "image": ""
+    },
+    {
+      "id": "ursus_maritimus",
+      "name": "Polar bear",
+      "sci_name": "Ursus maritimus",
+      "ott_id": 10732,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
+    "leafIds": [
+      "ursus_thibetanus",
+      "ursus_americanus",
+      "helarctos_malayanus",
+      "ursus_maritimus",
+      "ursus_arctos",
+      "melursus_ursinus",
+      "tremarctos_ornatus",
+      "ailuropoda_melanoleuca"
+    ]
+  }
+}

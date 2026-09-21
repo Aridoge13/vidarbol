@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-16",
+  "clade": "Lagomorpha",
+  "difficulty": "easy",
+  "taxa": [
+    {
+      "id": "sylvilagus_audubonii",
+      "name": "Desert cottontail",
+      "sci_name": "Sylvilagus audubonii",
+      "ott_id": 532394,
+      "image": ""
+    },
+    {
+      "id": "lepus_townsendii",
+      "name": "White-tailed jackrabbit",
+      "sci_name": "Lepus townsendii",
+      "ott_id": 747875,
+      "image": ""
+    },
+    {
+      "id": "lepus_americanus",
+      "name": "Snowshoe hare",
+      "sci_name": "Lepus americanus",
+      "ott_id": 923734,
+      "image": ""
+    },
+    {
+      "id": "lepus_arcticus",
+      "name": "Arctic hare",
+      "sci_name": "Lepus arcticus",
+      "ott_id": 638196,
+      "image": ""
+    },
+    {
+      "id": "lepus_timidus",
+      "name": "Mountain hare",
+      "sci_name": "Lepus timidus",
+      "ott_id": 167565,
+      "image": ""
+    },
+    {
+      "id": "sylvilagus_floridanus",
+      "name": "Eastern cottontail",
+      "sci_name": "Sylvilagus floridanus",
+      "ott_id": 864591,
+      "image": ""
+    },
+    {
+      "id": "oryctolagus_cuniculus",
+      "name": "European rabbit",
+      "sci_name": "Oryctolagus cuniculus",
+      "ott_id": 864596,
+      "image": ""
+    },
+    {
+      "id": "ochotona_princeps",
+      "name": "American pika",
+      "sci_name": "Ochotona princeps",
+      "ott_id": 644261,
+      "image": ""
+    },
+    {
+      "id": "lepus_europaeus",
+      "name": "European hare",
+      "sci_name": "Lepus europaeus",
+      "ott_id": 864607,
+      "image": ""
+    },
+    {
+      "id": "lepus_californicus",
+      "name": "Black-tailed jackrabbit",
+      "sci_name": "Lepus californicus",
+      "ott_id": 923732,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((lepus_californicus:1,lepus_europaeus:1,lepus_arcticus:1,lepus_townsendii:1,lepus_americanus:1,lepus_timidus:1):1,(sylvilagus_audubonii:1,sylvilagus_floridanus:1):1,oryctolagus_cuniculus:1):1,ochotona_princeps:1);",
+    "leafIds": [
+      "lepus_californicus",
+      "lepus_europaeus",
+      "lepus_arcticus",
+      "lepus_townsendii",
+      "lepus_americanus",
+      "lepus_timidus",
+      "sylvilagus_audubonii",
+      "sylvilagus_floridanus",
+      "oryctolagus_cuniculus",
+      "ochotona_princeps"
+    ]
+  }
+}

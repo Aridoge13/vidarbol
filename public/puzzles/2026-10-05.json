@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-05",
+  "clade": "Primates",
+  "difficulty": "hard",
+  "taxa": [
+    {
+      "id": "lemur_catta",
+      "name": "Ring-tailed lemur",
+      "sci_name": "Lemur catta",
+      "ott_id": 913930,
+      "image": ""
+    },
+    {
+      "id": "macaca_mulatta",
+      "name": "Rhesus macaque",
+      "sci_name": "Macaca mulatta",
+      "ott_id": 689650,
+      "image": ""
+    },
+    {
+      "id": "papio_anubis",
+      "name": "Olive baboon",
+      "sci_name": "Papio anubis",
+      "ott_id": 115449,
+      "image": ""
+    },
+    {
+      "id": "callithrix_jacchus",
+      "name": "Common marmoset",
+      "sci_name": "Callithrix jacchus",
+      "ott_id": 1015223,
+      "image": ""
+    },
+    {
+      "id": "daubentonia_madagascariensis",
+      "name": "Aye-aye",
+      "sci_name": "Daubentonia madagascariensis",
+      "ott_id": 50727,
+      "image": ""
+    },
+    {
+      "id": "tarsius_tarsier",
+      "name": "Spectral tarsier",
+      "sci_name": "Tarsius tarsier",
+      "ott_id": 721280,
+      "image": ""
+    },
+    {
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
+      "image": ""
+    },
+    {
+      "id": "gorilla_gorilla",
+      "name": "Western gorilla",
+      "sci_name": "Gorilla gorilla",
+      "ott_id": 417965,
+      "image": ""
+    },
+    {
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
+      "image": ""
+    },
+    {
+      "id": "pan_troglodytes",
+      "name": "Chimpanzee",
+      "sci_name": "Pan troglodytes",
+      "ott_id": 417950,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((((macaca_mulatta:1,papio_anubis:1):1,(((pan_troglodytes:1,homo_sapiens:1):1,gorilla_gorilla:1):1,pongo_abelii:1):1):1,callithrix_jacchus:1):1,tarsius_tarsier:1):1,(daubentonia_madagascariensis:1,lemur_catta:1):1);",
+    "leafIds": [
+      "macaca_mulatta",
+      "papio_anubis",
+      "pan_troglodytes",
+      "homo_sapiens",
+      "gorilla_gorilla",
+      "pongo_abelii",
+      "callithrix_jacchus",
+      "tarsius_tarsier",
+      "daubentonia_madagascariensis",
+      "lemur_catta"
+    ]
+  }
+}

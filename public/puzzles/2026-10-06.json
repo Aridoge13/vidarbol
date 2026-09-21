@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-06",
+  "clade": "Squamata",
+  "difficulty": "hard",
+  "taxa": [
+    {
+      "id": "varanus_salvator",
+      "name": "Asian water monitor",
+      "sci_name": "Varanus salvator",
+      "ott_id": 872963,
+      "image": ""
+    },
+    {
+      "id": "varanus_komodoensis",
+      "name": "Komodo dragon",
+      "sci_name": "Varanus komodoensis",
+      "ott_id": 1091028,
+      "image": ""
+    },
+    {
+      "id": "gekko_gecko",
+      "name": "Tokay gecko",
+      "sci_name": "Gekko gecko",
+      "ott_id": 953907,
+      "image": ""
+    },
+    {
+      "id": "pogona_vitticeps",
+      "name": "Central bearded dragon",
+      "sci_name": "Pogona vitticeps",
+      "ott_id": 913382,
+      "image": ""
+    },
+    {
+      "id": "python_regius",
+      "name": "Ball python",
+      "sci_name": "Python regius",
+      "ott_id": 737820,
+      "image": ""
+    },
+    {
+      "id": "python_bivittatus",
+      "name": "Burmese python",
+      "sci_name": "Python bivittatus",
+      "ott_id": 88370,
+      "image": ""
+    },
+    {
+      "id": "chamaeleo_chamaeleon",
+      "name": "Common chameleon",
+      "sci_name": "Chamaeleo chamaeleon",
+      "ott_id": 824527,
+      "image": ""
+    },
+    {
+      "id": "ophiophagus_hannah",
+      "name": "King cobra",
+      "sci_name": "Ophiophagus hannah",
+      "ott_id": 6136,
+      "image": ""
+    },
+    {
+      "id": "naja_naja",
+      "name": "Indian cobra",
+      "sci_name": "Naja naja",
+      "ott_id": 217478,
+      "image": ""
+    },
+    {
+      "id": "iguana_iguana",
+      "name": "Green iguana",
+      "sci_name": "Iguana iguana",
+      "ott_id": 608972,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((((chamaeleo_chamaeleon:1,pogona_vitticeps:1):1,iguana_iguana:1):1,(varanus_salvator:1,varanus_komodoensis:1):1):1,((python_regius:1,python_bivittatus:1):1,(ophiophagus_hannah:1,naja_naja:1):1):1):1,gekko_gecko:1);",
+    "leafIds": [
+      "chamaeleo_chamaeleon",
+      "pogona_vitticeps",
+      "iguana_iguana",
+      "varanus_salvator",
+      "varanus_komodoensis",
+      "python_regius",
+      "python_bivittatus",
+      "ophiophagus_hannah",
+      "naja_naja",
+      "gekko_gecko"
+    ]
+  }
+}

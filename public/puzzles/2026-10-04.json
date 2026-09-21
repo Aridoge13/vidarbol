@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-04",
+  "clade": "Anura",
+  "difficulty": "medium",
+  "taxa": [
+    {
+      "id": "bufo_bufo",
+      "name": "Common toad",
+      "sci_name": "Bufo bufo",
+      "ott_id": 889350,
+      "image": ""
+    },
+    {
+      "id": "dendrobates_tinctorius",
+      "name": "Dyeing poison dart frog",
+      "sci_name": "Dendrobates tinctorius",
+      "ott_id": 192977,
+      "image": ""
+    },
+    {
+      "id": "phyllobates_terribilis",
+      "name": "Golden poison frog",
+      "sci_name": "Phyllobates terribilis",
+      "ott_id": 451900,
+      "image": ""
+    },
+    {
+      "id": "eleutherodactylus_coqui",
+      "name": "Common coqui",
+      "sci_name": "Eleutherodactylus coqui",
+      "ott_id": 1085754,
+      "image": ""
+    },
+    {
+      "id": "rana_temporaria",
+      "name": "Common frog",
+      "sci_name": "Rana temporaria",
+      "ott_id": 14718,
+      "image": ""
+    },
+    {
+      "id": "pelophylax_ridibundus",
+      "name": "Marsh frog",
+      "sci_name": "Pelophylax ridibundus",
+      "ott_id": 14708,
+      "image": ""
+    },
+    {
+      "id": "xenopus_laevis",
+      "name": "African clawed frog",
+      "sci_name": "Xenopus laevis",
+      "ott_id": 465096,
+      "image": ""
+    },
+    {
+      "id": "hyla_arborea",
+      "name": "European tree frog",
+      "sci_name": "Hyla arborea",
+      "ott_id": 677266,
+      "image": ""
+    },
+    {
+      "id": "lithobates_catesbeianus",
+      "name": "American bullfrog",
+      "sci_name": "Lithobates catesbeianus",
+      "ott_id": 14688,
+      "image": ""
+    },
+    {
+      "id": "bombina_bombina",
+      "name": "European fire-bellied toad",
+      "sci_name": "Bombina bombina",
+      "ott_id": 991559,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((((((phyllobates_terribilis:1,dendrobates_tinctorius:1):1,bufo_bufo:1):1,hyla_arborea:1):1,eleutherodactylus_coqui:1):1,((lithobates_catesbeianus:1,rana_temporaria:1):1,pelophylax_ridibundus:1):1):1,xenopus_laevis:1):1,bombina_bombina:1);",
+    "leafIds": [
+      "phyllobates_terribilis",
+      "dendrobates_tinctorius",
+      "bufo_bufo",
+      "hyla_arborea",
+      "eleutherodactylus_coqui",
+      "lithobates_catesbeianus",
+      "rana_temporaria",
+      "pelophylax_ridibundus",
+      "xenopus_laevis",
+      "bombina_bombina"
+    ]
+  }
+}
