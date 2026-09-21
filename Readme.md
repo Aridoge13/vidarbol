@@ -9,6 +9,11 @@ or higher is a pass.
 Vidarbol runs entirely in your browser, with no accounts and no tracking.
 Your score never leaves your device.
 
+## Fun Fact
+Vidarbol blends *vida*, the Spanish word for life, with *árbol*, the Spanish
+word for tree. The two words share the letter *a*, which joins them into one
+name for the tree of life.
+
 ## How to play
 
 1. A puzzle gives you 4 to 11 organisms. The set is one of two kinds:
