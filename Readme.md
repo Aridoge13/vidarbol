@@ -133,13 +133,10 @@ For each name, the pipeline looks up the matching taxon in Open Tree of Life
 and fetches the induced subtree. It then removes internal labels and branch
 lengths and writes one JSON file per date.
 
-## Credits
+## Acknowledgements
 
-Phylogenetic tree data comes from
-[Open Tree of Life](https://opentreeoflife.github.io/).
+This project uses phylogenetic data from the [Open Tree of Life](https://opentreeoflife.org/), a collaborative effort to synthesize a comprehensive tree of life (see [citation details](https://doi.org/10.5281/zenodo.3937741)).
 
-Species images come from Wikimedia Commons and are licensed individually. See
-`public/img/attribution.json`.
 
 ## License
 
