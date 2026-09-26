@@ -1,92 +1,92 @@
 {
   "date": "2026-10-18",
-  "clade": "Felidae",
-  "difficulty": "easy",
+  "clade": "Lepidoptera",
+  "difficulty": "hard",
   "taxa": [
     {
-      "id": "panthera_leo",
-      "name": "Lion",
-      "sci_name": "Panthera leo",
-      "ott_id": 563151,
+      "id": "actias_luna",
+      "name": "Luna moth",
+      "sci_name": "Actias luna",
+      "ott_id": 180968,
       "image": ""
     },
     {
-      "id": "panthera_onca",
-      "name": "Jaguar",
-      "sci_name": "Panthera onca",
-      "ott_id": 42322,
+      "id": "attacus_atlas",
+      "name": "Atlas moth",
+      "sci_name": "Attacus atlas",
+      "ott_id": 180964,
       "image": ""
     },
     {
-      "id": "puma_concolor",
-      "name": "Cougar",
-      "sci_name": "Puma concolor",
-      "ott_id": 42307,
+      "id": "gonepteryx_rhamni",
+      "name": "Common brimstone",
+      "sci_name": "Gonepteryx rhamni",
+      "ott_id": 274183,
       "image": ""
     },
     {
-      "id": "panthera_pardus",
-      "name": "Leopard",
-      "sci_name": "Panthera pardus",
-      "ott_id": 42324,
+      "id": "danaus_plexippus",
+      "name": "Monarch butterfly",
+      "sci_name": "Danaus plexippus",
+      "ott_id": 190091,
       "image": ""
     },
     {
-      "id": "acinonyx_jubatus",
-      "name": "Cheetah",
-      "sci_name": "Acinonyx jubatus",
-      "ott_id": 752759,
+      "id": "bombyx_mori",
+      "name": "Domestic silkmoth",
+      "sci_name": "Bombyx mori",
+      "ott_id": 440274,
       "image": ""
     },
     {
-      "id": "lynx_lynx",
-      "name": "Eurasian lynx",
-      "sci_name": "Lynx lynx",
-      "ott_id": 886829,
+      "id": "aglais_io",
+      "name": "European peacock",
+      "sci_name": "Aglais io",
+      "ott_id": 1020541,
       "image": ""
     },
     {
-      "id": "panthera_tigris",
-      "name": "Tiger",
-      "sci_name": "Panthera tigris",
-      "ott_id": 42314,
+      "id": "papilio_machaon",
+      "name": "Old World swallowtail",
+      "sci_name": "Papilio machaon",
+      "ott_id": 1018322,
       "image": ""
     },
     {
-      "id": "felis_catus",
-      "name": "Domestic cat",
-      "sci_name": "Felis catus",
-      "ott_id": 563166,
+      "id": "vanessa_atalanta",
+      "name": "Red admiral",
+      "sci_name": "Vanessa atalanta",
+      "ott_id": 581038,
       "image": ""
     },
     {
-      "id": "prionailurus_bengalensis",
-      "name": "Leopard cat",
-      "sci_name": "Prionailurus bengalensis",
-      "ott_id": 280108,
+      "id": "manduca_sexta",
+      "name": "Carolina sphinx moth",
+      "sci_name": "Manduca sexta",
+      "ott_id": 116647,
       "image": ""
     },
     {
-      "id": "neofelis_nebulosa",
-      "name": "Clouded leopard",
-      "sci_name": "Neofelis nebulosa",
-      "ott_id": 763016,
+      "id": "pieris_brassicae",
+      "name": "Large white",
+      "sci_name": "Pieris brassicae",
+      "ott_id": 167943,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((panthera_pardus:1,(panthera_leo:1,panthera_onca:1):1):1,panthera_tigris:1):1,neofelis_nebulosa:1):1,(((felis_catus:1,prionailurus_bengalensis:1):1,(puma_concolor:1,acinonyx_jubatus:1):1):1,lynx_lynx:1):1);",
+    "newick": "((((gonepteryx_rhamni:1,pieris_brassicae:1):1,(danaus_plexippus:1,(aglais_io:1,vanessa_atalanta:1):1):1):1,papilio_machaon:1):1,(((actias_luna:1,attacus_atlas:1):1,manduca_sexta:1):1,bombyx_mori:1):1);",
     "leafIds": [
-      "panthera_pardus",
-      "panthera_leo",
-      "panthera_onca",
-      "panthera_tigris",
-      "neofelis_nebulosa",
-      "felis_catus",
-      "prionailurus_bengalensis",
-      "puma_concolor",
-      "acinonyx_jubatus",
-      "lynx_lynx"
+      "gonepteryx_rhamni",
+      "pieris_brassicae",
+      "danaus_plexippus",
+      "aglais_io",
+      "vanessa_atalanta",
+      "papilio_machaon",
+      "actias_luna",
+      "attacus_atlas",
+      "manduca_sexta",
+      "bombyx_mori"
     ]
   }
 }

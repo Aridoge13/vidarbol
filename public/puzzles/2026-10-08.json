@@ -1,92 +1,92 @@
 {
   "date": "2026-10-08",
-  "clade": "Crocodilia",
-  "difficulty": "medium",
+  "clade": "Canidae",
+  "difficulty": "easy",
   "taxa": [
     {
-      "id": "melanosuchus_niger",
-      "name": "Black caiman",
-      "sci_name": "Melanosuchus niger",
-      "ott_id": 953147,
+      "id": "vulpes_zerda",
+      "name": "Fennec fox",
+      "sci_name": "Vulpes zerda",
+      "ott_id": 315465,
       "image": ""
     },
     {
-      "id": "alligator_sinensis",
-      "name": "Chinese alligator",
-      "sci_name": "Alligator sinensis",
-      "ott_id": 953151,
+      "id": "lycaon_pictus",
+      "name": "African wild dog",
+      "sci_name": "Lycaon pictus",
+      "ott_id": 821953,
       "image": ""
     },
     {
-      "id": "alligator_mississippiensis",
-      "name": "American alligator",
-      "sci_name": "Alligator mississippiensis",
-      "ott_id": 335590,
+      "id": "canis_aureus",
+      "name": "Golden jackal",
+      "sci_name": "Canis aureus",
+      "ott_id": 621168,
       "image": ""
     },
     {
-      "id": "crocodylus_siamensis",
-      "name": "Siamese crocodile",
-      "sci_name": "Crocodylus siamensis",
-      "ott_id": 333784,
+      "id": "vulpes_vulpes",
+      "name": "Red fox",
+      "sci_name": "Vulpes vulpes",
+      "ott_id": 821964,
       "image": ""
     },
     {
-      "id": "crocodylus_johnstoni",
-      "name": "Australian freshwater crocodile",
-      "sci_name": "Crocodylus johnstoni",
-      "ott_id": 458978,
+      "id": "canis_simensis",
+      "name": "Ethiopian wolf",
+      "sci_name": "Canis simensis",
+      "ott_id": 752755,
       "image": ""
     },
     {
-      "id": "crocodylus_niloticus",
-      "name": "Nile crocodile",
-      "sci_name": "Crocodylus niloticus",
-      "ott_id": 35864,
+      "id": "urocyon_cinereoargenteus",
+      "name": "Gray fox",
+      "sci_name": "Urocyon cinereoargenteus",
+      "ott_id": 685113,
       "image": ""
     },
     {
-      "id": "crocodylus_acutus",
-      "name": "American crocodile",
-      "sci_name": "Crocodylus acutus",
-      "ott_id": 870591,
+      "id": "speothos_venaticus",
+      "name": "Bush dog",
+      "sci_name": "Speothos venaticus",
+      "ott_id": 684074,
       "image": ""
     },
     {
-      "id": "crocodylus_porosus",
-      "name": "Saltwater crocodile",
-      "sci_name": "Crocodylus porosus",
-      "ott_id": 35872,
+      "id": "canis_latrans",
+      "name": "Coyote",
+      "sci_name": "Canis latrans",
+      "ott_id": 247331,
       "image": ""
     },
     {
-      "id": "crocodylus_palustris",
-      "name": "Mugger crocodile",
-      "sci_name": "Crocodylus palustris",
-      "ott_id": 458957,
+      "id": "canis_lupus",
+      "name": "Gray wolf",
+      "sci_name": "Canis lupus",
+      "ott_id": 247341,
       "image": ""
     },
     {
-      "id": "gavialis_gangeticus",
-      "name": "Gharial",
-      "sci_name": "Gavialis gangeticus",
-      "ott_id": 881015,
+      "id": "otocyon_megalotis",
+      "name": "Bat-eared fox",
+      "sci_name": "Otocyon megalotis",
+      "ott_id": 821973,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "(((alligator_mississippiensis:1,alligator_sinensis:1):1,melanosuchus_niger:1):1,(((((crocodylus_porosus:1,crocodylus_siamensis:1):1,crocodylus_palustris:1):1,crocodylus_johnstoni:1):1,(crocodylus_niloticus:1,crocodylus_acutus:1):1):1,gavialis_gangeticus:1):1);",
+    "newick": "((canis_simensis:1,((canis_lupus:1,(speothos_venaticus:1,lycaon_pictus:1):1):1,(canis_latrans:1,canis_aureus:1):1):1):1,((urocyon_cinereoargenteus:1,otocyon_megalotis:1):1,(vulpes_zerda:1,vulpes_vulpes:1):1):1);",
     "leafIds": [
-      "alligator_mississippiensis",
-      "alligator_sinensis",
-      "melanosuchus_niger",
-      "crocodylus_porosus",
-      "crocodylus_siamensis",
-      "crocodylus_palustris",
-      "crocodylus_johnstoni",
-      "crocodylus_niloticus",
-      "crocodylus_acutus",
-      "gavialis_gangeticus"
+      "canis_simensis",
+      "canis_lupus",
+      "speothos_venaticus",
+      "lycaon_pictus",
+      "canis_latrans",
+      "canis_aureus",
+      "urocyon_cinereoargenteus",
+      "otocyon_megalotis",
+      "vulpes_zerda",
+      "vulpes_vulpes"
     ]
   }
 }

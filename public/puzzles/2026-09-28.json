@@ -1,76 +1,92 @@
 {
   "date": "2026-09-28",
-  "clade": "Ursidae",
-  "difficulty": "easy",
+  "clade": "Testudines",
+  "difficulty": "medium",
   "taxa": [
     {
-      "id": "melursus_ursinus",
-      "name": "Sloth bear",
-      "sci_name": "Melursus ursinus",
-      "ott_id": 297463,
+      "id": "eretmochelys_imbricata",
+      "name": "Hawksbill sea turtle",
+      "sci_name": "Eretmochelys imbricata",
+      "ott_id": 430337,
       "image": ""
     },
     {
-      "id": "ailuropoda_melanoleuca",
-      "name": "Giant panda",
-      "sci_name": "Ailuropoda melanoleuca",
-      "ott_id": 872573,
+      "id": "chelydra_serpentina",
+      "name": "Common snapping turtle",
+      "sci_name": "Chelydra serpentina",
+      "ott_id": 587311,
       "image": ""
     },
     {
-      "id": "helarctos_malayanus",
-      "name": "Sun bear",
-      "sci_name": "Helarctos malayanus",
-      "ott_id": 679701,
+      "id": "lepidochelys_olivacea",
+      "name": "Olive ridley sea turtle",
+      "sci_name": "Lepidochelys olivacea",
+      "ott_id": 430320,
       "image": ""
     },
     {
-      "id": "ursus_americanus",
-      "name": "American black bear",
-      "sci_name": "Ursus americanus",
-      "ott_id": 872577,
+      "id": "caretta_caretta",
+      "name": "Loggerhead sea turtle",
+      "sci_name": "Caretta caretta",
+      "ott_id": 392505,
       "image": ""
     },
     {
-      "id": "ursus_thibetanus",
-      "name": "Asian black bear",
-      "sci_name": "Ursus thibetanus",
-      "ott_id": 872580,
+      "id": "geochelone_elegans",
+      "name": "Indian star tortoise",
+      "sci_name": "Geochelone elegans",
+      "ott_id": 302068,
       "image": ""
     },
     {
-      "id": "tremarctos_ornatus",
-      "name": "Spectacled bear",
-      "sci_name": "Tremarctos ornatus",
-      "ott_id": 679667,
+      "id": "trachemys_scripta",
+      "name": "Pond slider",
+      "sci_name": "Trachemys scripta",
+      "ott_id": 725741,
       "image": ""
     },
     {
-      "id": "ursus_arctos",
-      "name": "Brown bear",
-      "sci_name": "Ursus arctos",
-      "ott_id": 872567,
+      "id": "chelonia_mydas",
+      "name": "Green sea turtle",
+      "sci_name": "Chelonia mydas",
+      "ott_id": 559133,
       "image": ""
     },
     {
-      "id": "ursus_maritimus",
-      "name": "Polar bear",
-      "sci_name": "Ursus maritimus",
-      "ott_id": 10732,
+      "id": "testudo_graeca",
+      "name": "Spur-thighed tortoise",
+      "sci_name": "Testudo graeca",
+      "ott_id": 207423,
+      "image": ""
+    },
+    {
+      "id": "dermochelys_coriacea",
+      "name": "Leatherback sea turtle",
+      "sci_name": "Dermochelys coriacea",
+      "ott_id": 243403,
+      "image": ""
+    },
+    {
+      "id": "testudo_hermanni",
+      "name": "Hermann's tortoise",
+      "sci_name": "Testudo hermanni",
+      "ott_id": 207422,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
+    "newick": "(((((testudo_hermanni:1,testudo_graeca:1):1,geochelone_elegans:1):1,trachemys_scripta:1):1,((((caretta_caretta:1,lepidochelys_olivacea:1):1,eretmochelys_imbricata:1):1,chelonia_mydas:1):1,dermochelys_coriacea:1):1):1,chelydra_serpentina:1);",
     "leafIds": [
-      "ursus_thibetanus",
-      "ursus_americanus",
-      "helarctos_malayanus",
-      "ursus_maritimus",
-      "ursus_arctos",
-      "melursus_ursinus",
-      "tremarctos_ornatus",
-      "ailuropoda_melanoleuca"
+      "testudo_hermanni",
+      "testudo_graeca",
+      "geochelone_elegans",
+      "trachemys_scripta",
+      "caretta_caretta",
+      "lepidochelys_olivacea",
+      "eretmochelys_imbricata",
+      "chelonia_mydas",
+      "dermochelys_coriacea",
+      "chelydra_serpentina"
     ]
   }
 }

@@ -1,92 +1,92 @@
 {
   "date": "2026-10-06",
-  "clade": "Rodentia",
+  "clade": "Aves",
   "difficulty": "medium",
   "taxa": [
     {
-      "id": "castor_fiber",
-      "name": "Eurasian beaver",
-      "sci_name": "Castor fiber",
-      "ott_id": 1048188,
+      "id": "columba_livia",
+      "name": "Rock dove",
+      "sci_name": "Columba livia",
+      "ott_id": 938416,
       "image": ""
     },
     {
-      "id": "cricetomys_gambianus",
-      "name": "Gambian pouched rat",
-      "sci_name": "Cricetomys gambianus",
-      "ott_id": 922511,
+      "id": "corvus_corax",
+      "name": "Common raven",
+      "sci_name": "Corvus corax",
+      "ott_id": 140425,
       "image": ""
     },
     {
-      "id": "mus_musculus",
-      "name": "House mouse",
-      "sci_name": "Mus musculus",
-      "ott_id": 542509,
+      "id": "anas_platyrhynchos",
+      "name": "Mallard",
+      "sci_name": "Anas platyrhynchos",
+      "ott_id": 765167,
       "image": ""
     },
     {
-      "id": "castor_canadensis",
-      "name": "North American beaver",
-      "sci_name": "Castor canadensis",
-      "ott_id": 886085,
+      "id": "bubo_bubo",
+      "name": "Eurasian eagle-owl",
+      "sci_name": "Bubo bubo",
+      "ott_id": 402453,
       "image": ""
     },
     {
-      "id": "cavia_porcellus",
-      "name": "Guinea pig",
-      "sci_name": "Cavia porcellus",
-      "ott_id": 744000,
+      "id": "struthio_camelus",
+      "name": "Common ostrich",
+      "sci_name": "Struthio camelus",
+      "ott_id": 647692,
       "image": ""
     },
     {
-      "id": "hydrochoerus_hydrochaeris",
-      "name": "Capybara",
-      "sci_name": "Hydrochoerus hydrochaeris",
-      "ott_id": 744018,
+      "id": "dromaius_novaehollandiae",
+      "name": "Emu",
+      "sci_name": "Dromaius novaehollandiae",
+      "ott_id": 829513,
       "image": ""
     },
     {
-      "id": "marmota_marmota",
-      "name": "Alpine marmot",
-      "sci_name": "Marmota marmota",
-      "ott_id": 630991,
+      "id": "psittacus_erithacus",
+      "name": "African grey parrot",
+      "sci_name": "Psittacus erithacus",
+      "ott_id": 285641,
       "image": ""
     },
     {
-      "id": "rattus_norvegicus",
-      "name": "Brown rat",
-      "sci_name": "Rattus norvegicus",
-      "ott_id": 271555,
+      "id": "spheniscus_demersus",
+      "name": "African penguin",
+      "sci_name": "Spheniscus demersus",
+      "ott_id": 60417,
       "image": ""
     },
     {
-      "id": "rattus_rattus",
-      "name": "Black rat",
-      "sci_name": "Rattus rattus",
-      "ott_id": 271571,
+      "id": "passer_domesticus",
+      "name": "House sparrow",
+      "sci_name": "Passer domesticus",
+      "ott_id": 745175,
       "image": ""
     },
     {
-      "id": "sciurus_vulgaris",
-      "name": "Eurasian red squirrel",
-      "sci_name": "Sciurus vulgaris",
-      "ott_id": 286193,
+      "id": "gallus_gallus",
+      "name": "Red junglefowl",
+      "sci_name": "Gallus gallus",
+      "ott_id": 153563,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((castor_fiber:1,castor_canadensis:1):1,(((rattus_norvegicus:1,rattus_rattus:1):1,mus_musculus:1):1,cricetomys_gambianus:1):1):1,(hydrochoerus_hydrochaeris:1,cavia_porcellus:1):1):1,(sciurus_vulgaris:1,marmota_marmota:1):1);",
+    "newick": "(((gallus_gallus:1,anas_platyrhynchos:1):1,(((((passer_domesticus:1,corvus_corax:1):1,psittacus_erithacus:1):1,bubo_bubo:1):1,spheniscus_demersus:1):1,columba_livia:1):1):1,(struthio_camelus:1,dromaius_novaehollandiae:1):1);",
     "leafIds": [
-      "castor_fiber",
-      "castor_canadensis",
-      "rattus_norvegicus",
-      "rattus_rattus",
-      "mus_musculus",
-      "cricetomys_gambianus",
-      "hydrochoerus_hydrochaeris",
-      "cavia_porcellus",
-      "sciurus_vulgaris",
-      "marmota_marmota"
+      "gallus_gallus",
+      "anas_platyrhynchos",
+      "passer_domesticus",
+      "corvus_corax",
+      "psittacus_erithacus",
+      "bubo_bubo",
+      "spheniscus_demersus",
+      "columba_livia",
+      "struthio_camelus",
+      "dromaius_novaehollandiae"
     ]
   }
 }

@@ -1,76 +1,92 @@
 {
   "date": "2026-10-19",
-  "clade": "Ursidae",
-  "difficulty": "easy",
+  "clade": "Mustelidae",
+  "difficulty": "medium",
   "taxa": [
     {
-      "id": "ursus_maritimus",
-      "name": "Polar bear",
-      "sci_name": "Ursus maritimus",
-      "ott_id": 10732,
+      "id": "gulo_gulo",
+      "name": "Wolverine",
+      "sci_name": "Gulo gulo",
+      "ott_id": 178247,
       "image": ""
     },
     {
-      "id": "melursus_ursinus",
-      "name": "Sloth bear",
-      "sci_name": "Melursus ursinus",
-      "ott_id": 297463,
+      "id": "enhydra_lutris",
+      "name": "Sea otter",
+      "sci_name": "Enhydra lutris",
+      "ott_id": 949676,
       "image": ""
     },
     {
-      "id": "tremarctos_ornatus",
-      "name": "Spectacled bear",
-      "sci_name": "Tremarctos ornatus",
-      "ott_id": 679667,
+      "id": "mustela_putorius",
+      "name": "European polecat",
+      "sci_name": "Mustela putorius",
+      "ott_id": 923126,
       "image": ""
     },
     {
-      "id": "ailuropoda_melanoleuca",
-      "name": "Giant panda",
-      "sci_name": "Ailuropoda melanoleuca",
-      "ott_id": 872573,
+      "id": "taxidea_taxus",
+      "name": "American badger",
+      "sci_name": "Taxidea taxus",
+      "ott_id": 754612,
       "image": ""
     },
     {
-      "id": "ursus_arctos",
-      "name": "Brown bear",
-      "sci_name": "Ursus arctos",
-      "ott_id": 872567,
+      "id": "martes_martes",
+      "name": "European pine marten",
+      "sci_name": "Martes martes",
+      "ott_id": 532122,
       "image": ""
     },
     {
-      "id": "ursus_thibetanus",
-      "name": "Asian black bear",
-      "sci_name": "Ursus thibetanus",
-      "ott_id": 872580,
+      "id": "mustela_nivalis",
+      "name": "Least weasel",
+      "sci_name": "Mustela nivalis",
+      "ott_id": 354525,
       "image": ""
     },
     {
-      "id": "helarctos_malayanus",
-      "name": "Sun bear",
-      "sci_name": "Helarctos malayanus",
-      "ott_id": 679701,
+      "id": "mustela_erminea",
+      "name": "Stoat",
+      "sci_name": "Mustela erminea",
+      "ott_id": 681184,
       "image": ""
     },
     {
-      "id": "ursus_americanus",
-      "name": "American black bear",
-      "sci_name": "Ursus americanus",
-      "ott_id": 872577,
+      "id": "neovison_vison",
+      "name": "American mink",
+      "sci_name": "Neovison vison",
+      "ott_id": 310482,
+      "image": ""
+    },
+    {
+      "id": "lutra_lutra",
+      "name": "Eurasian otter",
+      "sci_name": "Lutra lutra",
+      "ott_id": 348036,
+      "image": ""
+    },
+    {
+      "id": "meles_meles",
+      "name": "European badger",
+      "sci_name": "Meles meles",
+      "ott_id": 923113,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
+    "newick": "((((gulo_gulo:1,martes_martes:1):1,meles_meles:1):1,((((mustela_nivalis:1,mustela_putorius:1):1,mustela_erminea:1):1,neovison_vison:1):1,(enhydra_lutris:1,lutra_lutra:1):1):1):1,taxidea_taxus:1);",
     "leafIds": [
-      "ursus_thibetanus",
-      "ursus_americanus",
-      "helarctos_malayanus",
-      "ursus_maritimus",
-      "ursus_arctos",
-      "melursus_ursinus",
-      "tremarctos_ornatus",
-      "ailuropoda_melanoleuca"
+      "gulo_gulo",
+      "martes_martes",
+      "meles_meles",
+      "mustela_nivalis",
+      "mustela_putorius",
+      "mustela_erminea",
+      "neovison_vison",
+      "enhydra_lutris",
+      "lutra_lutra",
+      "taxidea_taxus"
     ]
   }
 }

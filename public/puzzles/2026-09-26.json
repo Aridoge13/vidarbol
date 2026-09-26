@@ -1,76 +1,76 @@
 {
   "date": "2026-09-26",
-  "clade": "Hominidae",
+  "clade": "Ursidae",
   "difficulty": "easy",
   "taxa": [
     {
-      "id": "gorilla_beringei",
-      "name": "Eastern gorilla",
-      "sci_name": "Gorilla beringei",
-      "ott_id": 351685,
+      "id": "ursus_arctos",
+      "name": "Brown bear",
+      "sci_name": "Ursus arctos",
+      "ott_id": 872567,
       "image": ""
     },
     {
-      "id": "gorilla_gorilla",
-      "name": "Western gorilla",
-      "sci_name": "Gorilla gorilla",
-      "ott_id": 417965,
+      "id": "ursus_thibetanus",
+      "name": "Asian black bear",
+      "sci_name": "Ursus thibetanus",
+      "ott_id": 872580,
       "image": ""
     },
     {
-      "id": "pongo_pygmaeus",
-      "name": "Bornean orangutan",
-      "sci_name": "Pongo pygmaeus",
-      "ott_id": 770302,
+      "id": "tremarctos_ornatus",
+      "name": "Spectacled bear",
+      "sci_name": "Tremarctos ornatus",
+      "ott_id": 679667,
       "image": ""
     },
     {
-      "id": "pongo_tapanuliensis",
-      "name": "Tapanuli orangutan",
-      "sci_name": "Pongo tapanuliensis",
-      "ott_id": 7067552,
+      "id": "ailuropoda_melanoleuca",
+      "name": "Giant panda",
+      "sci_name": "Ailuropoda melanoleuca",
+      "ott_id": 872573,
       "image": ""
     },
     {
-      "id": "homo_sapiens",
-      "name": "Human",
-      "sci_name": "Homo sapiens",
-      "ott_id": 770315,
+      "id": "ursus_americanus",
+      "name": "American black bear",
+      "sci_name": "Ursus americanus",
+      "ott_id": 872577,
       "image": ""
     },
     {
-      "id": "pongo_abelii",
-      "name": "Sumatran orangutan",
-      "sci_name": "Pongo abelii",
-      "ott_id": 770295,
+      "id": "ursus_maritimus",
+      "name": "Polar bear",
+      "sci_name": "Ursus maritimus",
+      "ott_id": 10732,
       "image": ""
     },
     {
-      "id": "pan_troglodytes",
-      "name": "Chimpanzee",
-      "sci_name": "Pan troglodytes",
-      "ott_id": 417950,
+      "id": "helarctos_malayanus",
+      "name": "Sun bear",
+      "sci_name": "Helarctos malayanus",
+      "ott_id": 679701,
       "image": ""
     },
     {
-      "id": "pan_paniscus",
-      "name": "Bonobo",
-      "sci_name": "Pan paniscus",
-      "ott_id": 158484,
+      "id": "melursus_ursinus",
+      "name": "Sloth bear",
+      "sci_name": "Melursus ursinus",
+      "ott_id": 297463,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((pan_troglodytes:1,pan_paniscus:1):1,homo_sapiens:1):1,(gorilla_beringei:1,gorilla_gorilla:1):1):1,(pongo_abelii:1,pongo_pygmaeus:1,pongo_tapanuliensis:1):1);",
+    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
     "leafIds": [
-      "pan_troglodytes",
-      "pan_paniscus",
-      "homo_sapiens",
-      "gorilla_beringei",
-      "gorilla_gorilla",
-      "pongo_abelii",
-      "pongo_pygmaeus",
-      "pongo_tapanuliensis"
+      "ursus_thibetanus",
+      "ursus_americanus",
+      "helarctos_malayanus",
+      "ursus_maritimus",
+      "ursus_arctos",
+      "melursus_ursinus",
+      "tremarctos_ornatus",
+      "ailuropoda_melanoleuca"
     ]
   }
 }

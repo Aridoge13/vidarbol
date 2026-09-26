@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-22",
+  "clade": "Passeriformes",
+  "difficulty": "medium",
+  "taxa": [
+    {
+      "id": "corvus_corax",
+      "name": "Common raven",
+      "sci_name": "Corvus corax",
+      "ott_id": 140425,
+      "image": ""
+    },
+    {
+      "id": "hirundo_rustica",
+      "name": "Barn swallow",
+      "sci_name": "Hirundo rustica",
+      "ott_id": 1040135,
+      "image": ""
+    },
+    {
+      "id": "sturnus_vulgaris",
+      "name": "Common starling",
+      "sci_name": "Sturnus vulgaris",
+      "ott_id": 565813,
+      "image": ""
+    },
+    {
+      "id": "taeniopygia_guttata",
+      "name": "Zebra finch",
+      "sci_name": "Taeniopygia guttata",
+      "ott_id": 708327,
+      "image": ""
+    },
+    {
+      "id": "troglodytes_troglodytes",
+      "name": "Eurasian wren",
+      "sci_name": "Troglodytes troglodytes",
+      "ott_id": 259813,
+      "image": ""
+    },
+    {
+      "id": "pica_pica",
+      "name": "Eurasian magpie",
+      "sci_name": "Pica pica",
+      "ott_id": 776471,
+      "image": ""
+    },
+    {
+      "id": "turdus_merula",
+      "name": "Common blackbird",
+      "sci_name": "Turdus merula",
+      "ott_id": 568572,
+      "image": ""
+    },
+    {
+      "id": "cyanistes_caeruleus",
+      "name": "Eurasian blue tit",
+      "sci_name": "Cyanistes caeruleus",
+      "ott_id": 746120,
+      "image": ""
+    },
+    {
+      "id": "passer_domesticus",
+      "name": "House sparrow",
+      "sci_name": "Passer domesticus",
+      "ott_id": 745175,
+      "image": ""
+    },
+    {
+      "id": "erithacus_rubecula",
+      "name": "European robin",
+      "sci_name": "Erithacus rubecula",
+      "ott_id": 507122,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((cyanistes_caeruleus:1,hirundo_rustica:1):1,((((erithacus_rubecula:1,turdus_merula:1):1,sturnus_vulgaris:1):1,troglodytes_troglodytes:1):1,(taeniopygia_guttata:1,passer_domesticus:1):1):1):1,(pica_pica:1,corvus_corax:1):1);",
+    "leafIds": [
+      "cyanistes_caeruleus",
+      "hirundo_rustica",
+      "erithacus_rubecula",
+      "turdus_merula",
+      "sturnus_vulgaris",
+      "troglodytes_troglodytes",
+      "taeniopygia_guttata",
+      "passer_domesticus",
+      "pica_pica",
+      "corvus_corax"
+    ]
+  }
+}

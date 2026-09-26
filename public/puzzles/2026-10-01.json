@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-01",
+  "clade": "Crocodilia",
+  "difficulty": "medium",
+  "taxa": [
+    {
+      "id": "crocodylus_acutus",
+      "name": "American crocodile",
+      "sci_name": "Crocodylus acutus",
+      "ott_id": 870591,
+      "image": ""
+    },
+    {
+      "id": "crocodylus_palustris",
+      "name": "Mugger crocodile",
+      "sci_name": "Crocodylus palustris",
+      "ott_id": 458957,
+      "image": ""
+    },
+    {
+      "id": "gavialis_gangeticus",
+      "name": "Gharial",
+      "sci_name": "Gavialis gangeticus",
+      "ott_id": 881015,
+      "image": ""
+    },
+    {
+      "id": "alligator_sinensis",
+      "name": "Chinese alligator",
+      "sci_name": "Alligator sinensis",
+      "ott_id": 953151,
+      "image": ""
+    },
+    {
+      "id": "crocodylus_niloticus",
+      "name": "Nile crocodile",
+      "sci_name": "Crocodylus niloticus",
+      "ott_id": 35864,
+      "image": ""
+    },
+    {
+      "id": "crocodylus_siamensis",
+      "name": "Siamese crocodile",
+      "sci_name": "Crocodylus siamensis",
+      "ott_id": 333784,
+      "image": ""
+    },
+    {
+      "id": "crocodylus_porosus",
+      "name": "Saltwater crocodile",
+      "sci_name": "Crocodylus porosus",
+      "ott_id": 35872,
+      "image": ""
+    },
+    {
+      "id": "melanosuchus_niger",
+      "name": "Black caiman",
+      "sci_name": "Melanosuchus niger",
+      "ott_id": 953147,
+      "image": ""
+    },
+    {
+      "id": "alligator_mississippiensis",
+      "name": "American alligator",
+      "sci_name": "Alligator mississippiensis",
+      "ott_id": 335590,
+      "image": ""
+    },
+    {
+      "id": "crocodylus_johnstoni",
+      "name": "Australian freshwater crocodile",
+      "sci_name": "Crocodylus johnstoni",
+      "ott_id": 458978,
+      "image": ""
+    }
+  ],
+  "tree": {
+    "newick": "(((alligator_mississippiensis:1,alligator_sinensis:1):1,melanosuchus_niger:1):1,(((((crocodylus_porosus:1,crocodylus_siamensis:1):1,crocodylus_palustris:1):1,crocodylus_johnstoni:1):1,(crocodylus_niloticus:1,crocodylus_acutus:1):1):1,gavialis_gangeticus:1):1);",
+    "leafIds": [
+      "alligator_mississippiensis",
+      "alligator_sinensis",
+      "melanosuchus_niger",
+      "crocodylus_porosus",
+      "crocodylus_siamensis",
+      "crocodylus_palustris",
+      "crocodylus_johnstoni",
+      "crocodylus_niloticus",
+      "crocodylus_acutus",
+      "gavialis_gangeticus"
+    ]
+  }
+}

@@ -1,92 +1,92 @@
 {
   "date": "2026-10-12",
-  "clade": "Lepidoptera",
+  "clade": "Primates",
   "difficulty": "hard",
   "taxa": [
     {
-      "id": "aglais_io",
-      "name": "European peacock",
-      "sci_name": "Aglais io",
-      "ott_id": 1020541,
+      "id": "pan_troglodytes",
+      "name": "Chimpanzee",
+      "sci_name": "Pan troglodytes",
+      "ott_id": 417950,
       "image": ""
     },
     {
-      "id": "attacus_atlas",
-      "name": "Atlas moth",
-      "sci_name": "Attacus atlas",
-      "ott_id": 180964,
+      "id": "tarsius_tarsier",
+      "name": "Spectral tarsier",
+      "sci_name": "Tarsius tarsier",
+      "ott_id": 721280,
       "image": ""
     },
     {
-      "id": "bombyx_mori",
-      "name": "Domestic silkmoth",
-      "sci_name": "Bombyx mori",
-      "ott_id": 440274,
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
       "image": ""
     },
     {
-      "id": "gonepteryx_rhamni",
-      "name": "Common brimstone",
-      "sci_name": "Gonepteryx rhamni",
-      "ott_id": 274183,
+      "id": "lemur_catta",
+      "name": "Ring-tailed lemur",
+      "sci_name": "Lemur catta",
+      "ott_id": 913930,
       "image": ""
     },
     {
-      "id": "danaus_plexippus",
-      "name": "Monarch butterfly",
-      "sci_name": "Danaus plexippus",
-      "ott_id": 190091,
+      "id": "callithrix_jacchus",
+      "name": "Common marmoset",
+      "sci_name": "Callithrix jacchus",
+      "ott_id": 1015223,
       "image": ""
     },
     {
-      "id": "papilio_machaon",
-      "name": "Old World swallowtail",
-      "sci_name": "Papilio machaon",
-      "ott_id": 1018322,
+      "id": "gorilla_gorilla",
+      "name": "Western gorilla",
+      "sci_name": "Gorilla gorilla",
+      "ott_id": 417965,
       "image": ""
     },
     {
-      "id": "actias_luna",
-      "name": "Luna moth",
-      "sci_name": "Actias luna",
-      "ott_id": 180968,
+      "id": "daubentonia_madagascariensis",
+      "name": "Aye-aye",
+      "sci_name": "Daubentonia madagascariensis",
+      "ott_id": 50727,
       "image": ""
     },
     {
-      "id": "vanessa_atalanta",
-      "name": "Red admiral",
-      "sci_name": "Vanessa atalanta",
-      "ott_id": 581038,
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
       "image": ""
     },
     {
-      "id": "manduca_sexta",
-      "name": "Carolina sphinx moth",
-      "sci_name": "Manduca sexta",
-      "ott_id": 116647,
+      "id": "papio_anubis",
+      "name": "Olive baboon",
+      "sci_name": "Papio anubis",
+      "ott_id": 115449,
       "image": ""
     },
     {
-      "id": "pieris_brassicae",
-      "name": "Large white",
-      "sci_name": "Pieris brassicae",
-      "ott_id": 167943,
+      "id": "macaca_mulatta",
+      "name": "Rhesus macaque",
+      "sci_name": "Macaca mulatta",
+      "ott_id": 689650,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((gonepteryx_rhamni:1,pieris_brassicae:1):1,(danaus_plexippus:1,(aglais_io:1,vanessa_atalanta:1):1):1):1,papilio_machaon:1):1,(((actias_luna:1,attacus_atlas:1):1,manduca_sexta:1):1,bombyx_mori:1):1);",
+    "newick": "(((((macaca_mulatta:1,papio_anubis:1):1,(((pan_troglodytes:1,homo_sapiens:1):1,gorilla_gorilla:1):1,pongo_abelii:1):1):1,callithrix_jacchus:1):1,tarsius_tarsier:1):1,(daubentonia_madagascariensis:1,lemur_catta:1):1);",
     "leafIds": [
-      "gonepteryx_rhamni",
-      "pieris_brassicae",
-      "danaus_plexippus",
-      "aglais_io",
-      "vanessa_atalanta",
-      "papilio_machaon",
-      "actias_luna",
-      "attacus_atlas",
-      "manduca_sexta",
-      "bombyx_mori"
+      "macaca_mulatta",
+      "papio_anubis",
+      "pan_troglodytes",
+      "homo_sapiens",
+      "gorilla_gorilla",
+      "pongo_abelii",
+      "callithrix_jacchus",
+      "tarsius_tarsier",
+      "daubentonia_madagascariensis",
+      "lemur_catta"
     ]
   }
 }

@@ -146,6 +146,14 @@ def load_config(path: Path) -> list[dict]:
     """
     return yaml.safe_load(path.read_text())["clades"]
 
+def rng_for_date(date_key: str) -> random.Random:
+    """A deterministic RNG seeded by the date.
+
+    Every player, deploy, and regeneration on a given date produces the
+    same puzzle. Different dates get independent seeds.
+    """
+    return random.Random(f"vidarbol-{date_key}")
+
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -153,39 +161,76 @@ def main() -> int:
     ap.add_argument("--out-dir", default="public/puzzles")
     ap.add_argument("--start", default=str(date.today()))
     ap.add_argument("--days", type=int, default=30)
-    ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
     clades = load_config(Path(args.config))
+    if not clades:
+        print("error: no clades defined in config", file=sys.stderr)
+        return 1
+
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    rng = random.Random(args.seed)
     start = date.fromisoformat(args.start)
-    index = []
+    skipped: list[tuple[str, str, str]] = []
+    generated: list[str] = []
+
+    recent: list[str] = []
+    cooldown = 3
 
     for i in range(args.days):
         day = start + timedelta(days=i)
-        clade_def = clades[i % len(clades)]
+        date_key = day.isoformat()
+        day_rng = rng_for_date(date_key)
+
+        candidates = [
+            c for c in clades if c["name"] not in recent[-cooldown:]
+        ] or clades
+
+        clade_def = day_rng.choice(candidates)
+        recent.append(clade_def["name"])
+
         try:
             puzzle = build_puzzle(
                 clade=clade_def["name"],
                 species=clade_def["species"],
                 difficulty=clade_def.get("difficulty", "medium"),
-                rng=rng,
+                rng=day_rng,
             )
         except Exception as e:
-            print(f"skip {day}: {e}", file=sys.stderr)
+            print(f"skip {date_key} ({clade_def['name']}): {e}", file=sys.stderr)
+            skipped.append((date_key, clade_def["name"], str(e)))
             continue
-        puzzle.date = day.isoformat()
+
+        puzzle.date = date_key
         payload = puzzle_to_dict(puzzle)
-        out_path = out_dir / f"{puzzle.date}.json"
+        out_path = out_dir / f"{date_key}.json"
         out_path.write_text(json.dumps(payload, indent=2))
-        index.append(puzzle.date)
+        generated.append(date_key)
         print(f"wrote {out_path}")
 
-    (out_dir / "index.json").write_text(json.dumps(sorted(index), indent=2))
-    print(f"wrote {out_dir}/index.json ({len(index)} puzzles)")
+    # Rebuild index from every puzzle file present, not just the ones
+    # generated in this run. This lets manual JSONs survive regeneration
+    # and preserves any puzzles from earlier runs you want to keep.
+    all_dates = sorted(
+        p.stem for p in out_dir.glob("*.json") if p.name != "index.json"
+    )
+    (out_dir / "index.json").write_text(json.dumps(all_dates, indent=2))
+
+    print(
+        f"\nwrote {out_dir}/index.json "
+        f"({len(all_dates)} total, {len(generated)} new)"
+    )
+
+    if skipped:
+        print(
+            f"\nERROR: {len(skipped)} day(s) skipped. Not deploying.",
+            file=sys.stderr,
+        )
+        for d, c, err in skipped:
+            print(f"  {d} ({c}): {err}", file=sys.stderr)
+        return 1
+
     return 0
 
 

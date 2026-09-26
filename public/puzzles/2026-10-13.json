@@ -1,92 +1,92 @@
 {
   "date": "2026-10-13",
-  "clade": "Coleoptera",
-  "difficulty": "hard",
+  "clade": "Lagomorpha",
+  "difficulty": "easy",
   "taxa": [
     {
-      "id": "coccinella_septempunctata",
-      "name": "Seven-spot ladybird",
-      "sci_name": "Coccinella septempunctata",
-      "ott_id": 343294,
+      "id": "sylvilagus_floridanus",
+      "name": "Eastern cottontail",
+      "sci_name": "Sylvilagus floridanus",
+      "ott_id": 864591,
       "image": ""
     },
     {
-      "id": "lucanus_cervus",
-      "name": "Stag beetle",
-      "sci_name": "Lucanus cervus",
-      "ott_id": 867953,
+      "id": "lepus_americanus",
+      "name": "Snowshoe hare",
+      "sci_name": "Lepus americanus",
+      "ott_id": 923734,
       "image": ""
     },
     {
-      "id": "harmonia_axyridis",
-      "name": "Harlequin ladybird",
-      "sci_name": "Harmonia axyridis",
-      "ott_id": 258281,
+      "id": "lepus_arcticus",
+      "name": "Arctic hare",
+      "sci_name": "Lepus arcticus",
+      "ott_id": 638196,
       "image": ""
     },
     {
-      "id": "leptinotarsa_decemlineata",
-      "name": "Colorado potato beetle",
-      "sci_name": "Leptinotarsa decemlineata",
-      "ott_id": 185597,
+      "id": "lepus_townsendii",
+      "name": "White-tailed jackrabbit",
+      "sci_name": "Lepus townsendii",
+      "ott_id": 747875,
       "image": ""
     },
     {
-      "id": "dytiscus_marginalis",
-      "name": "Great diving beetle",
-      "sci_name": "Dytiscus marginalis",
-      "ott_id": 551469,
+      "id": "lepus_californicus",
+      "name": "Black-tailed jackrabbit",
+      "sci_name": "Lepus californicus",
+      "ott_id": 923732,
       "image": ""
     },
     {
-      "id": "scarabaeus_sacer",
-      "name": "Sacred scarab",
-      "sci_name": "Scarabaeus sacer",
-      "ott_id": 720405,
+      "id": "lepus_timidus",
+      "name": "Mountain hare",
+      "sci_name": "Lepus timidus",
+      "ott_id": 167565,
       "image": ""
     },
     {
-      "id": "lampyris_noctiluca",
-      "name": "Common glow-worm",
-      "sci_name": "Lampyris noctiluca",
-      "ott_id": 531391,
+      "id": "oryctolagus_cuniculus",
+      "name": "European rabbit",
+      "sci_name": "Oryctolagus cuniculus",
+      "ott_id": 864596,
       "image": ""
     },
     {
-      "id": "anoplophora_glabripennis",
-      "name": "Asian long-horned beetle",
-      "sci_name": "Anoplophora glabripennis",
-      "ott_id": 827047,
+      "id": "sylvilagus_audubonii",
+      "name": "Desert cottontail",
+      "sci_name": "Sylvilagus audubonii",
+      "ott_id": 532394,
       "image": ""
     },
     {
-      "id": "cetonia_aurata",
-      "name": "Rose chafer",
-      "sci_name": "Cetonia aurata",
-      "ott_id": 3706,
+      "id": "ochotona_princeps",
+      "name": "American pika",
+      "sci_name": "Ochotona princeps",
+      "ott_id": 644261,
       "image": ""
     },
     {
-      "id": "tenebrio_molitor",
-      "name": "Yellow mealworm beetle",
-      "sci_name": "Tenebrio molitor",
-      "ott_id": 1093470,
+      "id": "lepus_europaeus",
+      "name": "European hare",
+      "sci_name": "Lepus europaeus",
+      "ott_id": 864607,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((((anoplophora_glabripennis:1,leptinotarsa_decemlineata:1):1,tenebrio_molitor:1):1,(coccinella_septempunctata:1,harmonia_axyridis:1):1):1,lampyris_noctiluca:1):1,((scarabaeus_sacer:1,cetonia_aurata:1):1,lucanus_cervus:1):1):1,dytiscus_marginalis:1);",
+    "newick": "(((lepus_californicus:1,lepus_europaeus:1,lepus_arcticus:1,lepus_townsendii:1,lepus_americanus:1,lepus_timidus:1):1,(sylvilagus_audubonii:1,sylvilagus_floridanus:1):1,oryctolagus_cuniculus:1):1,ochotona_princeps:1);",
     "leafIds": [
-      "anoplophora_glabripennis",
-      "leptinotarsa_decemlineata",
-      "tenebrio_molitor",
-      "coccinella_septempunctata",
-      "harmonia_axyridis",
-      "lampyris_noctiluca",
-      "scarabaeus_sacer",
-      "cetonia_aurata",
-      "lucanus_cervus",
-      "dytiscus_marginalis"
+      "lepus_californicus",
+      "lepus_europaeus",
+      "lepus_arcticus",
+      "lepus_townsendii",
+      "lepus_americanus",
+      "lepus_timidus",
+      "sylvilagus_audubonii",
+      "sylvilagus_floridanus",
+      "oryctolagus_cuniculus",
+      "ochotona_princeps"
     ]
   }
 }

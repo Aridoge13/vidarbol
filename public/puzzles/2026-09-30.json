@@ -1,92 +1,76 @@
 {
   "date": "2026-09-30",
-  "clade": "Lagomorpha",
+  "clade": "Hominidae",
   "difficulty": "easy",
   "taxa": [
     {
-      "id": "lepus_americanus",
-      "name": "Snowshoe hare",
-      "sci_name": "Lepus americanus",
-      "ott_id": 923734,
+      "id": "gorilla_beringei",
+      "name": "Eastern gorilla",
+      "sci_name": "Gorilla beringei",
+      "ott_id": 351685,
       "image": ""
     },
     {
-      "id": "ochotona_princeps",
-      "name": "American pika",
-      "sci_name": "Ochotona princeps",
-      "ott_id": 644261,
+      "id": "pan_troglodytes",
+      "name": "Chimpanzee",
+      "sci_name": "Pan troglodytes",
+      "ott_id": 417950,
       "image": ""
     },
     {
-      "id": "lepus_europaeus",
-      "name": "European hare",
-      "sci_name": "Lepus europaeus",
-      "ott_id": 864607,
+      "id": "pongo_pygmaeus",
+      "name": "Bornean orangutan",
+      "sci_name": "Pongo pygmaeus",
+      "ott_id": 770302,
       "image": ""
     },
     {
-      "id": "sylvilagus_floridanus",
-      "name": "Eastern cottontail",
-      "sci_name": "Sylvilagus floridanus",
-      "ott_id": 864591,
+      "id": "gorilla_gorilla",
+      "name": "Western gorilla",
+      "sci_name": "Gorilla gorilla",
+      "ott_id": 417965,
       "image": ""
     },
     {
-      "id": "oryctolagus_cuniculus",
-      "name": "European rabbit",
-      "sci_name": "Oryctolagus cuniculus",
-      "ott_id": 864596,
+      "id": "pongo_tapanuliensis",
+      "name": "Tapanuli orangutan",
+      "sci_name": "Pongo tapanuliensis",
+      "ott_id": 7067552,
       "image": ""
     },
     {
-      "id": "sylvilagus_audubonii",
-      "name": "Desert cottontail",
-      "sci_name": "Sylvilagus audubonii",
-      "ott_id": 532394,
+      "id": "pan_paniscus",
+      "name": "Bonobo",
+      "sci_name": "Pan paniscus",
+      "ott_id": 158484,
       "image": ""
     },
     {
-      "id": "lepus_californicus",
-      "name": "Black-tailed jackrabbit",
-      "sci_name": "Lepus californicus",
-      "ott_id": 923732,
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
       "image": ""
     },
     {
-      "id": "lepus_timidus",
-      "name": "Mountain hare",
-      "sci_name": "Lepus timidus",
-      "ott_id": 167565,
-      "image": ""
-    },
-    {
-      "id": "lepus_townsendii",
-      "name": "White-tailed jackrabbit",
-      "sci_name": "Lepus townsendii",
-      "ott_id": 747875,
-      "image": ""
-    },
-    {
-      "id": "lepus_arcticus",
-      "name": "Arctic hare",
-      "sci_name": "Lepus arcticus",
-      "ott_id": 638196,
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "(((lepus_californicus:1,lepus_europaeus:1,lepus_arcticus:1,lepus_townsendii:1,lepus_americanus:1,lepus_timidus:1):1,(sylvilagus_audubonii:1,sylvilagus_floridanus:1):1,oryctolagus_cuniculus:1):1,ochotona_princeps:1);",
+    "newick": "((((pan_troglodytes:1,pan_paniscus:1):1,homo_sapiens:1):1,(gorilla_beringei:1,gorilla_gorilla:1):1):1,(pongo_abelii:1,pongo_pygmaeus:1,pongo_tapanuliensis:1):1);",
     "leafIds": [
-      "lepus_californicus",
-      "lepus_europaeus",
-      "lepus_arcticus",
-      "lepus_townsendii",
-      "lepus_americanus",
-      "lepus_timidus",
-      "sylvilagus_audubonii",
-      "sylvilagus_floridanus",
-      "oryctolagus_cuniculus",
-      "ochotona_princeps"
+      "pan_troglodytes",
+      "pan_paniscus",
+      "homo_sapiens",
+      "gorilla_beringei",
+      "gorilla_gorilla",
+      "pongo_abelii",
+      "pongo_pygmaeus",
+      "pongo_tapanuliensis"
     ]
   }
 }

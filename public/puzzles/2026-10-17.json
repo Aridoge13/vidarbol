@@ -1,20 +1,13 @@
 {
   "date": "2026-10-17",
-  "clade": "Hominidae",
-  "difficulty": "easy",
+  "clade": "Primates",
+  "difficulty": "hard",
   "taxa": [
     {
-      "id": "pan_paniscus",
-      "name": "Bonobo",
-      "sci_name": "Pan paniscus",
-      "ott_id": 158484,
-      "image": ""
-    },
-    {
-      "id": "pongo_pygmaeus",
-      "name": "Bornean orangutan",
-      "sci_name": "Pongo pygmaeus",
-      "ott_id": 770302,
+      "id": "papio_anubis",
+      "name": "Olive baboon",
+      "sci_name": "Papio anubis",
+      "ott_id": 115449,
       "image": ""
     },
     {
@@ -25,17 +18,31 @@
       "image": ""
     },
     {
-      "id": "gorilla_beringei",
-      "name": "Eastern gorilla",
-      "sci_name": "Gorilla beringei",
-      "ott_id": 351685,
+      "id": "daubentonia_madagascariensis",
+      "name": "Aye-aye",
+      "sci_name": "Daubentonia madagascariensis",
+      "ott_id": 50727,
       "image": ""
     },
     {
-      "id": "pongo_abelii",
-      "name": "Sumatran orangutan",
-      "sci_name": "Pongo abelii",
-      "ott_id": 770295,
+      "id": "callithrix_jacchus",
+      "name": "Common marmoset",
+      "sci_name": "Callithrix jacchus",
+      "ott_id": 1015223,
+      "image": ""
+    },
+    {
+      "id": "macaca_mulatta",
+      "name": "Rhesus macaque",
+      "sci_name": "Macaca mulatta",
+      "ott_id": 689650,
+      "image": ""
+    },
+    {
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
       "image": ""
     },
     {
@@ -46,31 +53,40 @@
       "image": ""
     },
     {
-      "id": "pongo_tapanuliensis",
-      "name": "Tapanuli orangutan",
-      "sci_name": "Pongo tapanuliensis",
-      "ott_id": 7067552,
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
       "image": ""
     },
     {
-      "id": "homo_sapiens",
-      "name": "Human",
-      "sci_name": "Homo sapiens",
-      "ott_id": 770315,
+      "id": "tarsius_tarsier",
+      "name": "Spectral tarsier",
+      "sci_name": "Tarsius tarsier",
+      "ott_id": 721280,
+      "image": ""
+    },
+    {
+      "id": "lemur_catta",
+      "name": "Ring-tailed lemur",
+      "sci_name": "Lemur catta",
+      "ott_id": 913930,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((pan_troglodytes:1,pan_paniscus:1):1,homo_sapiens:1):1,(gorilla_beringei:1,gorilla_gorilla:1):1):1,(pongo_abelii:1,pongo_pygmaeus:1,pongo_tapanuliensis:1):1);",
+    "newick": "(((((macaca_mulatta:1,papio_anubis:1):1,(((pan_troglodytes:1,homo_sapiens:1):1,gorilla_gorilla:1):1,pongo_abelii:1):1):1,callithrix_jacchus:1):1,tarsius_tarsier:1):1,(daubentonia_madagascariensis:1,lemur_catta:1):1);",
     "leafIds": [
+      "macaca_mulatta",
+      "papio_anubis",
       "pan_troglodytes",
-      "pan_paniscus",
       "homo_sapiens",
-      "gorilla_beringei",
       "gorilla_gorilla",
       "pongo_abelii",
-      "pongo_pygmaeus",
-      "pongo_tapanuliensis"
+      "callithrix_jacchus",
+      "tarsius_tarsier",
+      "daubentonia_madagascariensis",
+      "lemur_catta"
     ]
   }
 }

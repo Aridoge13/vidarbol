@@ -139,8 +139,8 @@ clades:
         common: Common raven
       - sci: Passer domesticus
         common: House sparrow
-      - sci: Apteryx australis
-        common: Southern brown kiwi
+      - sci: Dromaius novaehollandiae
+        common: Emu
       - sci: Spheniscus demersus
         common: African penguin
 
