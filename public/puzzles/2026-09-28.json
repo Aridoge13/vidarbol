@@ -1,92 +1,76 @@
 {
   "date": "2026-09-28",
-  "clade": "Cetacea",
-  "difficulty": "medium",
+  "clade": "Ursidae",
+  "difficulty": "easy",
   "taxa": [
     {
-      "id": "balaenoptera_physalus",
-      "name": "Fin whale",
-      "sci_name": "Balaenoptera physalus",
-      "ott_id": 226193,
+      "id": "melursus_ursinus",
+      "name": "Sloth bear",
+      "sci_name": "Melursus ursinus",
+      "ott_id": 297463,
       "image": ""
     },
     {
-      "id": "monodon_monoceros",
-      "name": "Narwhal",
-      "sci_name": "Monodon monoceros",
-      "ott_id": 306757,
+      "id": "ailuropoda_melanoleuca",
+      "name": "Giant panda",
+      "sci_name": "Ailuropoda melanoleuca",
+      "ott_id": 872573,
       "image": ""
     },
     {
-      "id": "delphinus_delphis",
-      "name": "Common dolphin",
-      "sci_name": "Delphinus delphis",
-      "ott_id": 698438,
+      "id": "helarctos_malayanus",
+      "name": "Sun bear",
+      "sci_name": "Helarctos malayanus",
+      "ott_id": 679701,
       "image": ""
     },
     {
-      "id": "eubalaena_glacialis",
-      "name": "North Atlantic right whale",
-      "sci_name": "Eubalaena glacialis",
-      "ott_id": 397247,
+      "id": "ursus_americanus",
+      "name": "American black bear",
+      "sci_name": "Ursus americanus",
+      "ott_id": 872577,
       "image": ""
     },
     {
-      "id": "orcinus_orca",
-      "name": "Orca",
-      "sci_name": "Orcinus orca",
-      "ott_id": 124215,
+      "id": "ursus_thibetanus",
+      "name": "Asian black bear",
+      "sci_name": "Ursus thibetanus",
+      "ott_id": 872580,
       "image": ""
     },
     {
-      "id": "tursiops_truncatus",
-      "name": "Common bottlenose dolphin",
-      "sci_name": "Tursiops truncatus",
-      "ott_id": 124230,
+      "id": "tremarctos_ornatus",
+      "name": "Spectacled bear",
+      "sci_name": "Tremarctos ornatus",
+      "ott_id": 679667,
       "image": ""
     },
     {
-      "id": "balaenoptera_musculus",
-      "name": "Blue whale",
-      "sci_name": "Balaenoptera musculus",
-      "ott_id": 226190,
+      "id": "ursus_arctos",
+      "name": "Brown bear",
+      "sci_name": "Ursus arctos",
+      "ott_id": 872567,
       "image": ""
     },
     {
-      "id": "physeter_macrocephalus",
-      "name": "Sperm whale",
-      "sci_name": "Physeter macrocephalus",
-      "ott_id": 276851,
-      "image": ""
-    },
-    {
-      "id": "phocoena_phocoena",
-      "name": "Harbour porpoise",
-      "sci_name": "Phocoena phocoena",
-      "ott_id": 851312,
-      "image": ""
-    },
-    {
-      "id": "megaptera_novaeangliae",
-      "name": "Humpback whale",
-      "sci_name": "Megaptera novaeangliae",
-      "ott_id": 226198,
+      "id": "ursus_maritimus",
+      "name": "Polar bear",
+      "sci_name": "Ursus maritimus",
+      "ott_id": 10732,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((orcinus_orca:1,(tursiops_truncatus:1,delphinus_delphis:1):1):1,(monodon_monoceros:1,phocoena_phocoena:1):1):1,physeter_macrocephalus:1):1,(eubalaena_glacialis:1,((balaenoptera_physalus:1,megaptera_novaeangliae:1):1,balaenoptera_musculus:1):1):1);",
+    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
     "leafIds": [
-      "orcinus_orca",
-      "tursiops_truncatus",
-      "delphinus_delphis",
-      "monodon_monoceros",
-      "phocoena_phocoena",
-      "physeter_macrocephalus",
-      "eubalaena_glacialis",
-      "balaenoptera_physalus",
-      "megaptera_novaeangliae",
-      "balaenoptera_musculus"
+      "ursus_thibetanus",
+      "ursus_americanus",
+      "helarctos_malayanus",
+      "ursus_maritimus",
+      "ursus_arctos",
+      "melursus_ursinus",
+      "tremarctos_ornatus",
+      "ailuropoda_melanoleuca"
     ]
   }
 }

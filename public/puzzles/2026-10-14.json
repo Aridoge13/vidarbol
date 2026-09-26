@@ -1,76 +1,92 @@
 {
   "date": "2026-10-14",
-  "clade": "Ursidae",
-  "difficulty": "easy",
+  "clade": "Diptera",
+  "difficulty": "hard",
   "taxa": [
     {
-      "id": "ursus_thibetanus",
-      "name": "Asian black bear",
-      "sci_name": "Ursus thibetanus",
-      "ott_id": 872580,
+      "id": "glossina_morsitans",
+      "name": "Tsetse fly",
+      "sci_name": "Glossina morsitans",
+      "ott_id": 184919,
       "image": ""
     },
     {
-      "id": "ursus_americanus",
-      "name": "American black bear",
-      "sci_name": "Ursus americanus",
-      "ott_id": 872577,
+      "id": "tipula_paludosa",
+      "name": "Marsh crane fly",
+      "sci_name": "Tipula paludosa",
+      "ott_id": 453101,
       "image": ""
     },
     {
-      "id": "ailuropoda_melanoleuca",
-      "name": "Giant panda",
-      "sci_name": "Ailuropoda melanoleuca",
-      "ott_id": 872573,
+      "id": "musca_domestica",
+      "name": "House fly",
+      "sci_name": "Musca domestica",
+      "ott_id": 1011010,
       "image": ""
     },
     {
-      "id": "tremarctos_ornatus",
-      "name": "Spectacled bear",
-      "sci_name": "Tremarctos ornatus",
-      "ott_id": 679667,
+      "id": "aedes_aegypti",
+      "name": "Yellow fever mosquito",
+      "sci_name": "Aedes aegypti",
+      "ott_id": 269666,
       "image": ""
     },
     {
-      "id": "helarctos_malayanus",
-      "name": "Sun bear",
-      "sci_name": "Helarctos malayanus",
-      "ott_id": 679701,
+      "id": "calliphora_vicina",
+      "name": "Bluebottle fly",
+      "sci_name": "Calliphora vicina",
+      "ott_id": 1010998,
       "image": ""
     },
     {
-      "id": "melursus_ursinus",
-      "name": "Sloth bear",
-      "sci_name": "Melursus ursinus",
-      "ott_id": 297463,
+      "id": "culex_pipiens",
+      "name": "Common house mosquito",
+      "sci_name": "Culex pipiens",
+      "ott_id": 218684,
       "image": ""
     },
     {
-      "id": "ursus_maritimus",
-      "name": "Polar bear",
-      "sci_name": "Ursus maritimus",
-      "ott_id": 10732,
+      "id": "aedes_albopictus",
+      "name": "Asian tiger mosquito",
+      "sci_name": "Aedes albopictus",
+      "ott_id": 793181,
       "image": ""
     },
     {
-      "id": "ursus_arctos",
-      "name": "Brown bear",
-      "sci_name": "Ursus arctos",
-      "ott_id": 872567,
+      "id": "anopheles_gambiae",
+      "name": "African malaria mosquito",
+      "sci_name": "Anopheles gambiae",
+      "ott_id": 553555,
+      "image": ""
+    },
+    {
+      "id": "drosophila_melanogaster",
+      "name": "Fruit fly",
+      "sci_name": "Drosophila melanogaster",
+      "ott_id": 505714,
+      "image": ""
+    },
+    {
+      "id": "simulium_damnosum",
+      "name": "Black fly",
+      "sci_name": "Simulium damnosum",
+      "ott_id": 596408,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
+    "newick": "((((((aedes_aegypti:1,aedes_albopictus:1):1,culex_pipiens:1):1,anopheles_gambiae:1):1,simulium_damnosum:1):1,(((musca_domestica:1,calliphora_vicina:1):1,glossina_morsitans:1):1,drosophila_melanogaster:1):1):1,tipula_paludosa:1);",
     "leafIds": [
-      "ursus_thibetanus",
-      "ursus_americanus",
-      "helarctos_malayanus",
-      "ursus_maritimus",
-      "ursus_arctos",
-      "melursus_ursinus",
-      "tremarctos_ornatus",
-      "ailuropoda_melanoleuca"
+      "aedes_aegypti",
+      "aedes_albopictus",
+      "culex_pipiens",
+      "anopheles_gambiae",
+      "simulium_damnosum",
+      "musca_domestica",
+      "calliphora_vicina",
+      "glossina_morsitans",
+      "drosophila_melanogaster",
+      "tipula_paludosa"
     ]
   }
 }

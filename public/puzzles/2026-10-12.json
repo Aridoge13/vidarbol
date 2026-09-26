@@ -1,76 +1,92 @@
 {
   "date": "2026-10-12",
-  "clade": "Hominidae",
-  "difficulty": "easy",
+  "clade": "Lepidoptera",
+  "difficulty": "hard",
   "taxa": [
     {
-      "id": "homo_sapiens",
-      "name": "Human",
-      "sci_name": "Homo sapiens",
-      "ott_id": 770315,
+      "id": "aglais_io",
+      "name": "European peacock",
+      "sci_name": "Aglais io",
+      "ott_id": 1020541,
       "image": ""
     },
     {
-      "id": "pongo_pygmaeus",
-      "name": "Bornean orangutan",
-      "sci_name": "Pongo pygmaeus",
-      "ott_id": 770302,
+      "id": "attacus_atlas",
+      "name": "Atlas moth",
+      "sci_name": "Attacus atlas",
+      "ott_id": 180964,
       "image": ""
     },
     {
-      "id": "gorilla_gorilla",
-      "name": "Western gorilla",
-      "sci_name": "Gorilla gorilla",
-      "ott_id": 417965,
+      "id": "bombyx_mori",
+      "name": "Domestic silkmoth",
+      "sci_name": "Bombyx mori",
+      "ott_id": 440274,
       "image": ""
     },
     {
-      "id": "pongo_tapanuliensis",
-      "name": "Tapanuli orangutan",
-      "sci_name": "Pongo tapanuliensis",
-      "ott_id": 7067552,
+      "id": "gonepteryx_rhamni",
+      "name": "Common brimstone",
+      "sci_name": "Gonepteryx rhamni",
+      "ott_id": 274183,
       "image": ""
     },
     {
-      "id": "pan_troglodytes",
-      "name": "Chimpanzee",
-      "sci_name": "Pan troglodytes",
-      "ott_id": 417950,
+      "id": "danaus_plexippus",
+      "name": "Monarch butterfly",
+      "sci_name": "Danaus plexippus",
+      "ott_id": 190091,
       "image": ""
     },
     {
-      "id": "gorilla_beringei",
-      "name": "Eastern gorilla",
-      "sci_name": "Gorilla beringei",
-      "ott_id": 351685,
+      "id": "papilio_machaon",
+      "name": "Old World swallowtail",
+      "sci_name": "Papilio machaon",
+      "ott_id": 1018322,
       "image": ""
     },
     {
-      "id": "pongo_abelii",
-      "name": "Sumatran orangutan",
-      "sci_name": "Pongo abelii",
-      "ott_id": 770295,
+      "id": "actias_luna",
+      "name": "Luna moth",
+      "sci_name": "Actias luna",
+      "ott_id": 180968,
       "image": ""
     },
     {
-      "id": "pan_paniscus",
-      "name": "Bonobo",
-      "sci_name": "Pan paniscus",
-      "ott_id": 158484,
+      "id": "vanessa_atalanta",
+      "name": "Red admiral",
+      "sci_name": "Vanessa atalanta",
+      "ott_id": 581038,
+      "image": ""
+    },
+    {
+      "id": "manduca_sexta",
+      "name": "Carolina sphinx moth",
+      "sci_name": "Manduca sexta",
+      "ott_id": 116647,
+      "image": ""
+    },
+    {
+      "id": "pieris_brassicae",
+      "name": "Large white",
+      "sci_name": "Pieris brassicae",
+      "ott_id": 167943,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((pan_troglodytes:1,pan_paniscus:1):1,homo_sapiens:1):1,(gorilla_beringei:1,gorilla_gorilla:1):1):1,(pongo_abelii:1,pongo_pygmaeus:1,pongo_tapanuliensis:1):1);",
+    "newick": "((((gonepteryx_rhamni:1,pieris_brassicae:1):1,(danaus_plexippus:1,(aglais_io:1,vanessa_atalanta:1):1):1):1,papilio_machaon:1):1,(((actias_luna:1,attacus_atlas:1):1,manduca_sexta:1):1,bombyx_mori:1):1);",
     "leafIds": [
-      "pan_troglodytes",
-      "pan_paniscus",
-      "homo_sapiens",
-      "gorilla_beringei",
-      "gorilla_gorilla",
-      "pongo_abelii",
-      "pongo_pygmaeus",
-      "pongo_tapanuliensis"
+      "gonepteryx_rhamni",
+      "pieris_brassicae",
+      "danaus_plexippus",
+      "aglais_io",
+      "vanessa_atalanta",
+      "papilio_machaon",
+      "actias_luna",
+      "attacus_atlas",
+      "manduca_sexta",
+      "bombyx_mori"
     ]
   }
 }

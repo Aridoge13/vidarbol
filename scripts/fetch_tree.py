@@ -10,6 +10,7 @@ import json
 import sys
 import time
 from pathlib import Path
+import re
 
 import requests # pyright: ignore[reportMissingImports]
 
@@ -61,7 +62,7 @@ def match_names(names: list[str]) -> list[dict]:
 def induced_subtree(ott_ids: list[int], label_format: str = "id") -> str:
     """Fetch the induced subtree for a set of OTT ids.
 
-    Returns a Newick string.
+    Returns a Newick string with internal mrca labels stripped.
     """
     url = f"{API_BASE}/tree_of_life/induced_subtree"
     resp = requests.post(
@@ -74,6 +75,11 @@ def induced_subtree(ott_ids: list[int], label_format: str = "id") -> str:
     newick = data.get("newick")
     if not newick:
         raise ValueError(f"No newick in response: {data}")
+
+    # Open Tree labels internal nodes with "mrcaottXottY" strings.
+    # ete3 handles these inconsistently; strip them before parsing.
+    newick = re.sub(r"mrcaott\d+ott\d+", "", newick)
+
     return newick
 
 

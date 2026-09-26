@@ -1,13 +1,20 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-26",
   "clade": "Mustelidae",
   "difficulty": "medium",
   "taxa": [
     {
-      "id": "neovison_vison",
-      "name": "American mink",
-      "sci_name": "Neovison vison",
-      "ott_id": 310482,
+      "id": "lutra_lutra",
+      "name": "Eurasian otter",
+      "sci_name": "Lutra lutra",
+      "ott_id": 348036,
+      "image": ""
+    },
+    {
+      "id": "meles_meles",
+      "name": "European badger",
+      "sci_name": "Meles meles",
+      "ott_id": 923113,
       "image": ""
     },
     {
@@ -18,10 +25,24 @@
       "image": ""
     },
     {
+      "id": "neovison_vison",
+      "name": "American mink",
+      "sci_name": "Neovison vison",
+      "ott_id": 310482,
+      "image": ""
+    },
+    {
       "id": "mustela_putorius",
       "name": "European polecat",
       "sci_name": "Mustela putorius",
       "ott_id": 923126,
+      "image": ""
+    },
+    {
+      "id": "mustela_erminea",
+      "name": "Stoat",
+      "sci_name": "Mustela erminea",
+      "ott_id": 681184,
       "image": ""
     },
     {
@@ -50,27 +71,6 @@
       "name": "European pine marten",
       "sci_name": "Martes martes",
       "ott_id": 532122,
-      "image": ""
-    },
-    {
-      "id": "lutra_lutra",
-      "name": "Eurasian otter",
-      "sci_name": "Lutra lutra",
-      "ott_id": 348036,
-      "image": ""
-    },
-    {
-      "id": "mustela_erminea",
-      "name": "Stoat",
-      "sci_name": "Mustela erminea",
-      "ott_id": 681184,
-      "image": ""
-    },
-    {
-      "id": "meles_meles",
-      "name": "European badger",
-      "sci_name": "Meles meles",
-      "ott_id": 923113,
       "image": ""
     }
   ],

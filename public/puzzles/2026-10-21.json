@@ -1,34 +1,27 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-10-21",
   "clade": "Lagomorpha",
   "difficulty": "easy",
   "taxa": [
     {
-      "id": "lepus_americanus",
-      "name": "Snowshoe hare",
-      "sci_name": "Lepus americanus",
-      "ott_id": 923734,
+      "id": "lepus_arcticus",
+      "name": "Arctic hare",
+      "sci_name": "Lepus arcticus",
+      "ott_id": 638196,
       "image": ""
     },
     {
-      "id": "ochotona_princeps",
-      "name": "American pika",
-      "sci_name": "Ochotona princeps",
-      "ott_id": 644261,
+      "id": "lepus_timidus",
+      "name": "Mountain hare",
+      "sci_name": "Lepus timidus",
+      "ott_id": 167565,
       "image": ""
     },
     {
-      "id": "lepus_europaeus",
-      "name": "European hare",
-      "sci_name": "Lepus europaeus",
-      "ott_id": 864607,
-      "image": ""
-    },
-    {
-      "id": "sylvilagus_floridanus",
-      "name": "Eastern cottontail",
-      "sci_name": "Sylvilagus floridanus",
-      "ott_id": 864591,
+      "id": "lepus_californicus",
+      "name": "Black-tailed jackrabbit",
+      "sci_name": "Lepus californicus",
+      "ott_id": 923732,
       "image": ""
     },
     {
@@ -46,17 +39,17 @@
       "image": ""
     },
     {
-      "id": "lepus_californicus",
-      "name": "Black-tailed jackrabbit",
-      "sci_name": "Lepus californicus",
-      "ott_id": 923732,
+      "id": "lepus_europaeus",
+      "name": "European hare",
+      "sci_name": "Lepus europaeus",
+      "ott_id": 864607,
       "image": ""
     },
     {
-      "id": "lepus_timidus",
-      "name": "Mountain hare",
-      "sci_name": "Lepus timidus",
-      "ott_id": 167565,
+      "id": "ochotona_princeps",
+      "name": "American pika",
+      "sci_name": "Ochotona princeps",
+      "ott_id": 644261,
       "image": ""
     },
     {
@@ -67,10 +60,17 @@
       "image": ""
     },
     {
-      "id": "lepus_arcticus",
-      "name": "Arctic hare",
-      "sci_name": "Lepus arcticus",
-      "ott_id": 638196,
+      "id": "sylvilagus_floridanus",
+      "name": "Eastern cottontail",
+      "sci_name": "Sylvilagus floridanus",
+      "ott_id": 864591,
+      "image": ""
+    },
+    {
+      "id": "lepus_americanus",
+      "name": "Snowshoe hare",
+      "sci_name": "Lepus americanus",
+      "ott_id": 923734,
       "image": ""
     }
   ],

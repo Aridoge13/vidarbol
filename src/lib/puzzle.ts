@@ -106,7 +106,9 @@ function validatePuzzle(p: Puzzle): void {
 
 /** Fetch and validate the list of available dates. */
 export async function fetchPuzzleIndex(): Promise<PuzzleIndex> {
-    const res = await fetch(`${PUZZLES_BASE}/index.json`);
+    const res = await fetch(`${PUZZLES_BASE}/index.json`, {
+        cache: "no-cache",
+    });
     if (!res.ok) {
         throw new Error(`Failed to load puzzle index: HTTP ${res.status}`);
     }
@@ -122,7 +124,9 @@ export async function fetchPuzzleIndex(): Promise<PuzzleIndex> {
 
 /** Fetch and validate one puzzle by ISO date key. */
 export async function fetchPuzzle(dateKey: string): Promise<Puzzle> {
-    const res = await fetch(`${PUZZLES_BASE}/${dateKey}.json`);
+    const res = await fetch(`${PUZZLES_BASE}/${dateKey}.json`, {
+        cache: "no-cache",
+    });;
     if (res.status === 404) {
         throw new Error(`No puzzle for ${dateKey}.`);
     }

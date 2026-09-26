@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-25",
   "clade": "Delphinidae",
   "difficulty": "medium",
   "taxa": [
@@ -11,17 +11,17 @@
       "image": ""
     },
     {
-      "id": "orcinus_orca",
-      "name": "Orca",
-      "sci_name": "Orcinus orca",
-      "ott_id": 124215,
+      "id": "lagenorhynchus_albirostris",
+      "name": "White-beaked dolphin",
+      "sci_name": "Lagenorhynchus albirostris",
+      "ott_id": 825969,
       "image": ""
     },
     {
-      "id": "globicephala_macrorhynchus",
-      "name": "Short-finned pilot whale",
-      "sci_name": "Globicephala macrorhynchus",
-      "ott_id": 535886,
+      "id": "sousa_chinensis",
+      "name": "Indo-Pacific humpback dolphin",
+      "sci_name": "Sousa chinensis",
+      "ott_id": 187220,
       "image": ""
     },
     {
@@ -32,20 +32,6 @@
       "image": ""
     },
     {
-      "id": "globicephala_melas",
-      "name": "Long-finned pilot whale",
-      "sci_name": "Globicephala melas",
-      "ott_id": 124212,
-      "image": ""
-    },
-    {
-      "id": "lagenorhynchus_albirostris",
-      "name": "White-beaked dolphin",
-      "sci_name": "Lagenorhynchus albirostris",
-      "ott_id": 825969,
-      "image": ""
-    },
-    {
       "id": "delphinus_delphis",
       "name": "Common dolphin",
       "sci_name": "Delphinus delphis",
@@ -53,10 +39,10 @@
       "image": ""
     },
     {
-      "id": "tursiops_aduncus",
-      "name": "Indo-Pacific bottlenose dolphin",
-      "sci_name": "Tursiops aduncus",
-      "ott_id": 257323,
+      "id": "orcinus_orca",
+      "name": "Orca",
+      "sci_name": "Orcinus orca",
+      "ott_id": 124215,
       "image": ""
     },
     {
@@ -67,10 +53,24 @@
       "image": ""
     },
     {
-      "id": "sousa_chinensis",
-      "name": "Indo-Pacific humpback dolphin",
-      "sci_name": "Sousa chinensis",
-      "ott_id": 187220,
+      "id": "globicephala_melas",
+      "name": "Long-finned pilot whale",
+      "sci_name": "Globicephala melas",
+      "ott_id": 124212,
+      "image": ""
+    },
+    {
+      "id": "globicephala_macrorhynchus",
+      "name": "Short-finned pilot whale",
+      "sci_name": "Globicephala macrorhynchus",
+      "ott_id": 535886,
+      "image": ""
+    },
+    {
+      "id": "tursiops_aduncus",
+      "name": "Indo-Pacific bottlenose dolphin",
+      "sci_name": "Tursiops aduncus",
+      "ott_id": 257323,
       "image": ""
     }
   ],

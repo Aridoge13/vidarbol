@@ -1,92 +1,92 @@
 {
   "date": "2026-10-07",
-  "clade": "Lepidoptera",
-  "difficulty": "hard",
+  "clade": "Testudines",
+  "difficulty": "medium",
   "taxa": [
     {
-      "id": "manduca_sexta",
-      "name": "Carolina sphinx moth",
-      "sci_name": "Manduca sexta",
-      "ott_id": 116647,
+      "id": "testudo_graeca",
+      "name": "Spur-thighed tortoise",
+      "sci_name": "Testudo graeca",
+      "ott_id": 207423,
       "image": ""
     },
     {
-      "id": "gonepteryx_rhamni",
-      "name": "Common brimstone",
-      "sci_name": "Gonepteryx rhamni",
-      "ott_id": 274183,
+      "id": "caretta_caretta",
+      "name": "Loggerhead sea turtle",
+      "sci_name": "Caretta caretta",
+      "ott_id": 392505,
       "image": ""
     },
     {
-      "id": "papilio_machaon",
-      "name": "Old World swallowtail",
-      "sci_name": "Papilio machaon",
-      "ott_id": 1018322,
+      "id": "chelonia_mydas",
+      "name": "Green sea turtle",
+      "sci_name": "Chelonia mydas",
+      "ott_id": 559133,
       "image": ""
     },
     {
-      "id": "danaus_plexippus",
-      "name": "Monarch butterfly",
-      "sci_name": "Danaus plexippus",
-      "ott_id": 190091,
+      "id": "lepidochelys_olivacea",
+      "name": "Olive ridley sea turtle",
+      "sci_name": "Lepidochelys olivacea",
+      "ott_id": 430320,
       "image": ""
     },
     {
-      "id": "attacus_atlas",
-      "name": "Atlas moth",
-      "sci_name": "Attacus atlas",
-      "ott_id": 180964,
+      "id": "dermochelys_coriacea",
+      "name": "Leatherback sea turtle",
+      "sci_name": "Dermochelys coriacea",
+      "ott_id": 243403,
       "image": ""
     },
     {
-      "id": "vanessa_atalanta",
-      "name": "Red admiral",
-      "sci_name": "Vanessa atalanta",
-      "ott_id": 581038,
+      "id": "geochelone_elegans",
+      "name": "Indian star tortoise",
+      "sci_name": "Geochelone elegans",
+      "ott_id": 302068,
       "image": ""
     },
     {
-      "id": "aglais_io",
-      "name": "European peacock",
-      "sci_name": "Aglais io",
-      "ott_id": 1020541,
+      "id": "eretmochelys_imbricata",
+      "name": "Hawksbill sea turtle",
+      "sci_name": "Eretmochelys imbricata",
+      "ott_id": 430337,
       "image": ""
     },
     {
-      "id": "bombyx_mori",
-      "name": "Domestic silkmoth",
-      "sci_name": "Bombyx mori",
-      "ott_id": 440274,
+      "id": "chelydra_serpentina",
+      "name": "Common snapping turtle",
+      "sci_name": "Chelydra serpentina",
+      "ott_id": 587311,
       "image": ""
     },
     {
-      "id": "pieris_brassicae",
-      "name": "Large white",
-      "sci_name": "Pieris brassicae",
-      "ott_id": 167943,
+      "id": "trachemys_scripta",
+      "name": "Pond slider",
+      "sci_name": "Trachemys scripta",
+      "ott_id": 725741,
       "image": ""
     },
     {
-      "id": "actias_luna",
-      "name": "Luna moth",
-      "sci_name": "Actias luna",
-      "ott_id": 180968,
+      "id": "testudo_hermanni",
+      "name": "Hermann's tortoise",
+      "sci_name": "Testudo hermanni",
+      "ott_id": 207422,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((gonepteryx_rhamni:1,pieris_brassicae:1):1,(danaus_plexippus:1,(aglais_io:1,vanessa_atalanta:1):1):1):1,papilio_machaon:1):1,(((actias_luna:1,attacus_atlas:1):1,manduca_sexta:1):1,bombyx_mori:1):1);",
+    "newick": "(((((testudo_hermanni:1,testudo_graeca:1):1,geochelone_elegans:1):1,trachemys_scripta:1):1,((((caretta_caretta:1,lepidochelys_olivacea:1):1,eretmochelys_imbricata:1):1,chelonia_mydas:1):1,dermochelys_coriacea:1):1):1,chelydra_serpentina:1);",
     "leafIds": [
-      "gonepteryx_rhamni",
-      "pieris_brassicae",
-      "danaus_plexippus",
-      "aglais_io",
-      "vanessa_atalanta",
-      "papilio_machaon",
-      "actias_luna",
-      "attacus_atlas",
-      "manduca_sexta",
-      "bombyx_mori"
+      "testudo_hermanni",
+      "testudo_graeca",
+      "geochelone_elegans",
+      "trachemys_scripta",
+      "caretta_caretta",
+      "lepidochelys_olivacea",
+      "eretmochelys_imbricata",
+      "chelonia_mydas",
+      "dermochelys_coriacea",
+      "chelydra_serpentina"
     ]
   }
 }

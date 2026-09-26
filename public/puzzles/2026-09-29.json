@@ -1,92 +1,92 @@
 {
   "date": "2026-09-29",
-  "clade": "Delphinidae",
-  "difficulty": "medium",
+  "clade": "Canidae",
+  "difficulty": "easy",
   "taxa": [
     {
-      "id": "delphinus_capensis",
-      "name": "Long-beaked common dolphin",
-      "sci_name": "Delphinus capensis",
-      "ott_id": 1094064,
+      "id": "canis_aureus",
+      "name": "Golden jackal",
+      "sci_name": "Canis aureus",
+      "ott_id": 621168,
       "image": ""
     },
     {
-      "id": "orcinus_orca",
-      "name": "Orca",
-      "sci_name": "Orcinus orca",
-      "ott_id": 124215,
+      "id": "speothos_venaticus",
+      "name": "Bush dog",
+      "sci_name": "Speothos venaticus",
+      "ott_id": 684074,
       "image": ""
     },
     {
-      "id": "globicephala_macrorhynchus",
-      "name": "Short-finned pilot whale",
-      "sci_name": "Globicephala macrorhynchus",
-      "ott_id": 535886,
+      "id": "vulpes_zerda",
+      "name": "Fennec fox",
+      "sci_name": "Vulpes zerda",
+      "ott_id": 315465,
       "image": ""
     },
     {
-      "id": "tursiops_truncatus",
-      "name": "Common bottlenose dolphin",
-      "sci_name": "Tursiops truncatus",
-      "ott_id": 124230,
+      "id": "vulpes_vulpes",
+      "name": "Red fox",
+      "sci_name": "Vulpes vulpes",
+      "ott_id": 821964,
       "image": ""
     },
     {
-      "id": "globicephala_melas",
-      "name": "Long-finned pilot whale",
-      "sci_name": "Globicephala melas",
-      "ott_id": 124212,
+      "id": "canis_lupus",
+      "name": "Gray wolf",
+      "sci_name": "Canis lupus",
+      "ott_id": 247341,
       "image": ""
     },
     {
-      "id": "lagenorhynchus_albirostris",
-      "name": "White-beaked dolphin",
-      "sci_name": "Lagenorhynchus albirostris",
-      "ott_id": 825969,
+      "id": "canis_simensis",
+      "name": "Ethiopian wolf",
+      "sci_name": "Canis simensis",
+      "ott_id": 752755,
       "image": ""
     },
     {
-      "id": "delphinus_delphis",
-      "name": "Common dolphin",
-      "sci_name": "Delphinus delphis",
-      "ott_id": 698438,
+      "id": "urocyon_cinereoargenteus",
+      "name": "Gray fox",
+      "sci_name": "Urocyon cinereoargenteus",
+      "ott_id": 685113,
       "image": ""
     },
     {
-      "id": "tursiops_aduncus",
-      "name": "Indo-Pacific bottlenose dolphin",
-      "sci_name": "Tursiops aduncus",
-      "ott_id": 257323,
+      "id": "canis_latrans",
+      "name": "Coyote",
+      "sci_name": "Canis latrans",
+      "ott_id": 247331,
       "image": ""
     },
     {
-      "id": "stenella_attenuata",
-      "name": "Pantropical spotted dolphin",
-      "sci_name": "Stenella attenuata",
-      "ott_id": 124220,
+      "id": "otocyon_megalotis",
+      "name": "Bat-eared fox",
+      "sci_name": "Otocyon megalotis",
+      "ott_id": 821973,
       "image": ""
     },
     {
-      "id": "sousa_chinensis",
-      "name": "Indo-Pacific humpback dolphin",
-      "sci_name": "Sousa chinensis",
-      "ott_id": 187220,
+      "id": "lycaon_pictus",
+      "name": "African wild dog",
+      "sci_name": "Lycaon pictus",
+      "ott_id": 821953,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "(((lagenorhynchus_albirostris:1,((stenella_attenuata:1,(tursiops_truncatus:1,tursiops_aduncus:1):1):1,(sousa_chinensis:1,(delphinus_capensis:1,delphinus_delphis:1):1):1):1):1,(globicephala_melas:1,globicephala_macrorhynchus:1):1):1,orcinus_orca:1);",
+    "newick": "((canis_simensis:1,((canis_lupus:1,(speothos_venaticus:1,lycaon_pictus:1):1):1,(canis_latrans:1,canis_aureus:1):1):1):1,((urocyon_cinereoargenteus:1,otocyon_megalotis:1):1,(vulpes_zerda:1,vulpes_vulpes:1):1):1);",
     "leafIds": [
-      "lagenorhynchus_albirostris",
-      "stenella_attenuata",
-      "tursiops_truncatus",
-      "tursiops_aduncus",
-      "sousa_chinensis",
-      "delphinus_capensis",
-      "delphinus_delphis",
-      "globicephala_melas",
-      "globicephala_macrorhynchus",
-      "orcinus_orca"
+      "canis_simensis",
+      "canis_lupus",
+      "speothos_venaticus",
+      "lycaon_pictus",
+      "canis_latrans",
+      "canis_aureus",
+      "urocyon_cinereoargenteus",
+      "otocyon_megalotis",
+      "vulpes_zerda",
+      "vulpes_vulpes"
     ]
   }
 }

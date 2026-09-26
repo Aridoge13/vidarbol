@@ -1,76 +1,92 @@
 {
-    "date": "2026-09-30",
-    "clade": "Ursidae",
-    "difficulty": "easy",
-    "taxa": [
-        {
-            "id": "ursus_thibetanus",
-            "name": "Asian black bear",
-            "sci_name": "Ursus thibetanus",
-            "ott_id": 872580,
-            "image": ""
-        },
-        {
-            "id": "ursus_americanus",
-            "name": "American black bear",
-            "sci_name": "Ursus americanus",
-            "ott_id": 872577,
-            "image": ""
-        },
-        {
-            "id": "helarctos_malayanus",
-            "name": "Sun bear",
-            "sci_name": "Helarctos malayanus",
-            "ott_id": 679701,
-            "image": ""
-        },
-        {
-            "id": "melursus_ursinus",
-            "name": "Sloth bear",
-            "sci_name": "Melursus ursinus",
-            "ott_id": 297463,
-            "image": ""
-        },
-        {
-            "id": "ursus_maritimus",
-            "name": "Polar bear",
-            "sci_name": "Ursus maritimus",
-            "ott_id": 10732,
-            "image": ""
-        },
-        {
-            "id": "ursus_arctos",
-            "name": "Brown bear",
-            "sci_name": "Ursus arctos",
-            "ott_id": 872567,
-            "image": ""
-        },
-        {
-            "id": "tremarctos_ornatus",
-            "name": "Spectacled bear",
-            "sci_name": "Tremarctos ornatus",
-            "ott_id": 123931,
-            "image": ""
-        },
-        {
-            "id": "ailuropoda_melanoleuca",
-            "name": "Giant panda",
-            "sci_name": "Ailuropoda melanoleuca",
-            "ott_id": 10880,
-            "image": ""
-        }
-    ],
-    "tree": {
-        "newick": "((((((ursus_thibetanus:1,ursus_americanus:1):1,helarctos_malayanus:1):1,(ursus_maritimus:1,ursus_arctos:1):1):1,melursus_ursinus:1):1,tremarctos_ornatus:1):1,ailuropoda_melanoleuca:1);",
-        "leafIds": [
-            "ursus_thibetanus",
-            "ursus_americanus",
-            "helarctos_malayanus",
-            "ursus_maritimus",
-            "ursus_arctos",
-            "melursus_ursinus",
-            "tremarctos_ornatus",
-            "ailuropoda_melanoleuca"
-        ]
+  "date": "2026-09-30",
+  "clade": "Lagomorpha",
+  "difficulty": "easy",
+  "taxa": [
+    {
+      "id": "lepus_americanus",
+      "name": "Snowshoe hare",
+      "sci_name": "Lepus americanus",
+      "ott_id": 923734,
+      "image": ""
+    },
+    {
+      "id": "ochotona_princeps",
+      "name": "American pika",
+      "sci_name": "Ochotona princeps",
+      "ott_id": 644261,
+      "image": ""
+    },
+    {
+      "id": "lepus_europaeus",
+      "name": "European hare",
+      "sci_name": "Lepus europaeus",
+      "ott_id": 864607,
+      "image": ""
+    },
+    {
+      "id": "sylvilagus_floridanus",
+      "name": "Eastern cottontail",
+      "sci_name": "Sylvilagus floridanus",
+      "ott_id": 864591,
+      "image": ""
+    },
+    {
+      "id": "oryctolagus_cuniculus",
+      "name": "European rabbit",
+      "sci_name": "Oryctolagus cuniculus",
+      "ott_id": 864596,
+      "image": ""
+    },
+    {
+      "id": "sylvilagus_audubonii",
+      "name": "Desert cottontail",
+      "sci_name": "Sylvilagus audubonii",
+      "ott_id": 532394,
+      "image": ""
+    },
+    {
+      "id": "lepus_californicus",
+      "name": "Black-tailed jackrabbit",
+      "sci_name": "Lepus californicus",
+      "ott_id": 923732,
+      "image": ""
+    },
+    {
+      "id": "lepus_timidus",
+      "name": "Mountain hare",
+      "sci_name": "Lepus timidus",
+      "ott_id": 167565,
+      "image": ""
+    },
+    {
+      "id": "lepus_townsendii",
+      "name": "White-tailed jackrabbit",
+      "sci_name": "Lepus townsendii",
+      "ott_id": 747875,
+      "image": ""
+    },
+    {
+      "id": "lepus_arcticus",
+      "name": "Arctic hare",
+      "sci_name": "Lepus arcticus",
+      "ott_id": 638196,
+      "image": ""
     }
+  ],
+  "tree": {
+    "newick": "(((lepus_californicus:1,lepus_europaeus:1,lepus_arcticus:1,lepus_townsendii:1,lepus_americanus:1,lepus_timidus:1):1,(sylvilagus_audubonii:1,sylvilagus_floridanus:1):1,oryctolagus_cuniculus:1):1,ochotona_princeps:1);",
+    "leafIds": [
+      "lepus_californicus",
+      "lepus_europaeus",
+      "lepus_arcticus",
+      "lepus_townsendii",
+      "lepus_americanus",
+      "lepus_timidus",
+      "sylvilagus_audubonii",
+      "sylvilagus_floridanus",
+      "oryctolagus_cuniculus",
+      "ochotona_princeps"
+    ]
+  }
 }

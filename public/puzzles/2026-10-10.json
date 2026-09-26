@@ -1,57 +1,8 @@
 {
   "date": "2026-10-10",
-  "clade": "Vertebrates",
+  "clade": "Primates",
   "difficulty": "hard",
   "taxa": [
-    {
-      "id": "carcharodon_carcharias",
-      "name": "Great white shark",
-      "sci_name": "Carcharodon carcharias",
-      "ott_id": 554297,
-      "image": ""
-    },
-    {
-      "id": "petromyzon_marinus",
-      "name": "Sea lamprey",
-      "sci_name": "Petromyzon marinus",
-      "ott_id": 227494,
-      "image": ""
-    },
-    {
-      "id": "latimeria_chalumnae",
-      "name": "West Indian Ocean coelacanth",
-      "sci_name": "Latimeria chalumnae",
-      "ott_id": 773491,
-      "image": ""
-    },
-    {
-      "id": "crocodylus_porosus",
-      "name": "Saltwater crocodile",
-      "sci_name": "Crocodylus porosus",
-      "ott_id": 35872,
-      "image": ""
-    },
-    {
-      "id": "danio_rerio",
-      "name": "Zebrafish",
-      "sci_name": "Danio rerio",
-      "ott_id": 1005914,
-      "image": ""
-    },
-    {
-      "id": "chelonia_mydas",
-      "name": "Green sea turtle",
-      "sci_name": "Chelonia mydas",
-      "ott_id": 559133,
-      "image": ""
-    },
-    {
-      "id": "gallus_gallus",
-      "name": "Red junglefowl",
-      "sci_name": "Gallus gallus",
-      "ott_id": 153563,
-      "image": ""
-    },
     {
       "id": "homo_sapiens",
       "name": "Human",
@@ -60,33 +11,82 @@
       "image": ""
     },
     {
-      "id": "manta_birostris",
-      "name": "Giant oceanic manta ray",
-      "sci_name": "Manta birostris",
-      "ott_id": 920351,
+      "id": "gorilla_gorilla",
+      "name": "Western gorilla",
+      "sci_name": "Gorilla gorilla",
+      "ott_id": 417965,
       "image": ""
     },
     {
-      "id": "rana_temporaria",
-      "name": "Common frog",
-      "sci_name": "Rana temporaria",
-      "ott_id": 14718,
+      "id": "lemur_catta",
+      "name": "Ring-tailed lemur",
+      "sci_name": "Lemur catta",
+      "ott_id": 913930,
+      "image": ""
+    },
+    {
+      "id": "papio_anubis",
+      "name": "Olive baboon",
+      "sci_name": "Papio anubis",
+      "ott_id": 115449,
+      "image": ""
+    },
+    {
+      "id": "pongo_abelii",
+      "name": "Sumatran orangutan",
+      "sci_name": "Pongo abelii",
+      "ott_id": 770295,
+      "image": ""
+    },
+    {
+      "id": "callithrix_jacchus",
+      "name": "Common marmoset",
+      "sci_name": "Callithrix jacchus",
+      "ott_id": 1015223,
+      "image": ""
+    },
+    {
+      "id": "macaca_mulatta",
+      "name": "Rhesus macaque",
+      "sci_name": "Macaca mulatta",
+      "ott_id": 689650,
+      "image": ""
+    },
+    {
+      "id": "tarsius_tarsier",
+      "name": "Spectral tarsier",
+      "sci_name": "Tarsius tarsier",
+      "ott_id": 721280,
+      "image": ""
+    },
+    {
+      "id": "daubentonia_madagascariensis",
+      "name": "Aye-aye",
+      "sci_name": "Daubentonia madagascariensis",
+      "ott_id": 50727,
+      "image": ""
+    },
+    {
+      "id": "pan_troglodytes",
+      "name": "Chimpanzee",
+      "sci_name": "Pan troglodytes",
+      "ott_id": 417950,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "((((((((crocodylus_porosus:1,gallus_gallus:1):1,chelonia_mydas:1):1,homo_sapiens:1):1,rana_temporaria:1):1,latimeria_chalumnae:1):1,danio_rerio:1):1,(carcharodon_carcharias:1,manta_birostris:1):1):1,petromyzon_marinus:1);",
+    "newick": "(((((macaca_mulatta:1,papio_anubis:1):1,(((pan_troglodytes:1,homo_sapiens:1):1,gorilla_gorilla:1):1,pongo_abelii:1):1):1,callithrix_jacchus:1):1,tarsius_tarsier:1):1,(daubentonia_madagascariensis:1,lemur_catta:1):1);",
     "leafIds": [
-      "crocodylus_porosus",
-      "gallus_gallus",
-      "chelonia_mydas",
+      "macaca_mulatta",
+      "papio_anubis",
+      "pan_troglodytes",
       "homo_sapiens",
-      "rana_temporaria",
-      "latimeria_chalumnae",
-      "danio_rerio",
-      "carcharodon_carcharias",
-      "manta_birostris",
-      "petromyzon_marinus"
+      "gorilla_gorilla",
+      "pongo_abelii",
+      "callithrix_jacchus",
+      "tarsius_tarsier",
+      "daubentonia_madagascariensis",
+      "lemur_catta"
     ]
   }
 }

@@ -1,92 +1,92 @@
 {
   "date": "2026-10-03",
-  "clade": "Crocodilia",
+  "clade": "Cetacea",
   "difficulty": "medium",
   "taxa": [
     {
-      "id": "alligator_sinensis",
-      "name": "Chinese alligator",
-      "sci_name": "Alligator sinensis",
-      "ott_id": 953151,
+      "id": "balaenoptera_physalus",
+      "name": "Fin whale",
+      "sci_name": "Balaenoptera physalus",
+      "ott_id": 226193,
       "image": ""
     },
     {
-      "id": "crocodylus_siamensis",
-      "name": "Siamese crocodile",
-      "sci_name": "Crocodylus siamensis",
-      "ott_id": 333784,
+      "id": "monodon_monoceros",
+      "name": "Narwhal",
+      "sci_name": "Monodon monoceros",
+      "ott_id": 306757,
       "image": ""
     },
     {
-      "id": "crocodylus_niloticus",
-      "name": "Nile crocodile",
-      "sci_name": "Crocodylus niloticus",
-      "ott_id": 35864,
+      "id": "delphinus_delphis",
+      "name": "Common dolphin",
+      "sci_name": "Delphinus delphis",
+      "ott_id": 698438,
       "image": ""
     },
     {
-      "id": "crocodylus_palustris",
-      "name": "Mugger crocodile",
-      "sci_name": "Crocodylus palustris",
-      "ott_id": 458957,
+      "id": "eubalaena_glacialis",
+      "name": "North Atlantic right whale",
+      "sci_name": "Eubalaena glacialis",
+      "ott_id": 397247,
       "image": ""
     },
     {
-      "id": "crocodylus_acutus",
-      "name": "American crocodile",
-      "sci_name": "Crocodylus acutus",
-      "ott_id": 870591,
+      "id": "orcinus_orca",
+      "name": "Orca",
+      "sci_name": "Orcinus orca",
+      "ott_id": 124215,
       "image": ""
     },
     {
-      "id": "melanosuchus_niger",
-      "name": "Black caiman",
-      "sci_name": "Melanosuchus niger",
-      "ott_id": 953147,
+      "id": "tursiops_truncatus",
+      "name": "Common bottlenose dolphin",
+      "sci_name": "Tursiops truncatus",
+      "ott_id": 124230,
       "image": ""
     },
     {
-      "id": "crocodylus_johnstoni",
-      "name": "Australian freshwater crocodile",
-      "sci_name": "Crocodylus johnstoni",
-      "ott_id": 458978,
+      "id": "balaenoptera_musculus",
+      "name": "Blue whale",
+      "sci_name": "Balaenoptera musculus",
+      "ott_id": 226190,
       "image": ""
     },
     {
-      "id": "gavialis_gangeticus",
-      "name": "Gharial",
-      "sci_name": "Gavialis gangeticus",
-      "ott_id": 881015,
+      "id": "physeter_macrocephalus",
+      "name": "Sperm whale",
+      "sci_name": "Physeter macrocephalus",
+      "ott_id": 276851,
       "image": ""
     },
     {
-      "id": "crocodylus_porosus",
-      "name": "Saltwater crocodile",
-      "sci_name": "Crocodylus porosus",
-      "ott_id": 35872,
+      "id": "phocoena_phocoena",
+      "name": "Harbour porpoise",
+      "sci_name": "Phocoena phocoena",
+      "ott_id": 851312,
       "image": ""
     },
     {
-      "id": "alligator_mississippiensis",
-      "name": "American alligator",
-      "sci_name": "Alligator mississippiensis",
-      "ott_id": 335590,
+      "id": "megaptera_novaeangliae",
+      "name": "Humpback whale",
+      "sci_name": "Megaptera novaeangliae",
+      "ott_id": 226198,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "(((alligator_mississippiensis:1,alligator_sinensis:1):1,melanosuchus_niger:1):1,(((((crocodylus_porosus:1,crocodylus_siamensis:1):1,crocodylus_palustris:1):1,crocodylus_johnstoni:1):1,(crocodylus_niloticus:1,crocodylus_acutus:1):1):1,gavialis_gangeticus:1):1);",
+    "newick": "((((orcinus_orca:1,(tursiops_truncatus:1,delphinus_delphis:1):1):1,(monodon_monoceros:1,phocoena_phocoena:1):1):1,physeter_macrocephalus:1):1,(eubalaena_glacialis:1,((balaenoptera_physalus:1,megaptera_novaeangliae:1):1,balaenoptera_musculus:1):1):1);",
     "leafIds": [
-      "alligator_mississippiensis",
-      "alligator_sinensis",
-      "melanosuchus_niger",
-      "crocodylus_porosus",
-      "crocodylus_siamensis",
-      "crocodylus_palustris",
-      "crocodylus_johnstoni",
-      "crocodylus_niloticus",
-      "crocodylus_acutus",
-      "gavialis_gangeticus"
+      "orcinus_orca",
+      "tursiops_truncatus",
+      "delphinus_delphis",
+      "monodon_monoceros",
+      "phocoena_phocoena",
+      "physeter_macrocephalus",
+      "eubalaena_glacialis",
+      "balaenoptera_physalus",
+      "megaptera_novaeangliae",
+      "balaenoptera_musculus"
     ]
   }
 }

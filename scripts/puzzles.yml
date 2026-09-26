@@ -225,7 +225,7 @@ clades:
         common: Stoat
       - sci: Mustela putorius
         common: European polecat
-      - sci: Neogale vison
+      - sci: Neovison vison
         common: American mink
       - sci: Lutra lutra
         common: Eurasian otter
@@ -498,8 +498,8 @@ clades:
         common: Virginia opossum
       - sci: Macropus giganteus
         common: Eastern grey kangaroo
-      - sci: Eulipotyphla
-        common: Eulipotyphla
+      - sci: Erinaceus europaeus
+        common: European hedgehog
       - sci: Loxodonta africana
         common: African bush elephant
       - sci: Panthera leo

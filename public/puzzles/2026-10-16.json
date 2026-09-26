@@ -1,48 +1,20 @@
 {
   "date": "2026-10-16",
-  "clade": "Lagomorpha",
-  "difficulty": "easy",
+  "clade": "Mammals",
+  "difficulty": "hard",
   "taxa": [
     {
-      "id": "sylvilagus_audubonii",
-      "name": "Desert cottontail",
-      "sci_name": "Sylvilagus audubonii",
-      "ott_id": 532394,
+      "id": "didelphis_virginiana",
+      "name": "Virginia opossum",
+      "sci_name": "Didelphis virginiana",
+      "ott_id": 919171,
       "image": ""
     },
     {
-      "id": "lepus_townsendii",
-      "name": "White-tailed jackrabbit",
-      "sci_name": "Lepus townsendii",
-      "ott_id": 747875,
-      "image": ""
-    },
-    {
-      "id": "lepus_americanus",
-      "name": "Snowshoe hare",
-      "sci_name": "Lepus americanus",
-      "ott_id": 923734,
-      "image": ""
-    },
-    {
-      "id": "lepus_arcticus",
-      "name": "Arctic hare",
-      "sci_name": "Lepus arcticus",
-      "ott_id": 638196,
-      "image": ""
-    },
-    {
-      "id": "lepus_timidus",
-      "name": "Mountain hare",
-      "sci_name": "Lepus timidus",
-      "ott_id": 167565,
-      "image": ""
-    },
-    {
-      "id": "sylvilagus_floridanus",
-      "name": "Eastern cottontail",
-      "sci_name": "Sylvilagus floridanus",
-      "ott_id": 864591,
+      "id": "mus_musculus",
+      "name": "House mouse",
+      "sci_name": "Mus musculus",
+      "ott_id": 542509,
       "image": ""
     },
     {
@@ -53,40 +25,68 @@
       "image": ""
     },
     {
-      "id": "ochotona_princeps",
-      "name": "American pika",
-      "sci_name": "Ochotona princeps",
-      "ott_id": 644261,
+      "id": "panthera_leo",
+      "name": "Lion",
+      "sci_name": "Panthera leo",
+      "ott_id": 563151,
       "image": ""
     },
     {
-      "id": "lepus_europaeus",
-      "name": "European hare",
-      "sci_name": "Lepus europaeus",
-      "ott_id": 864607,
+      "id": "loxodonta_africana",
+      "name": "African bush elephant",
+      "sci_name": "Loxodonta africana",
+      "ott_id": 541936,
       "image": ""
     },
     {
-      "id": "lepus_californicus",
-      "name": "Black-tailed jackrabbit",
-      "sci_name": "Lepus californicus",
-      "ott_id": 923732,
+      "id": "homo_sapiens",
+      "name": "Human",
+      "sci_name": "Homo sapiens",
+      "ott_id": 770315,
+      "image": ""
+    },
+    {
+      "id": "balaenoptera_musculus",
+      "name": "Blue whale",
+      "sci_name": "Balaenoptera musculus",
+      "ott_id": 226190,
+      "image": ""
+    },
+    {
+      "id": "ornithorhynchus_anatinus",
+      "name": "Platypus",
+      "sci_name": "Ornithorhynchus anatinus",
+      "ott_id": 962377,
+      "image": ""
+    },
+    {
+      "id": "erinaceus_europaeus",
+      "name": "European hedgehog",
+      "sci_name": "Erinaceus europaeus",
+      "ott_id": 796660,
+      "image": ""
+    },
+    {
+      "id": "macropus_giganteus",
+      "name": "Eastern grey kangaroo",
+      "sci_name": "Macropus giganteus",
+      "ott_id": 597239,
       "image": ""
     }
   ],
   "tree": {
-    "newick": "(((lepus_californicus:1,lepus_europaeus:1,lepus_arcticus:1,lepus_townsendii:1,lepus_americanus:1,lepus_timidus:1):1,(sylvilagus_audubonii:1,sylvilagus_floridanus:1):1,oryctolagus_cuniculus:1):1,ochotona_princeps:1);",
+    "newick": "(((didelphis_virginiana:1,macropus_giganteus:1):1,((((oryctolagus_cuniculus:1,mus_musculus:1):1,homo_sapiens:1):1,((panthera_leo:1,balaenoptera_musculus:1):1,erinaceus_europaeus:1):1):1,loxodonta_africana:1):1):1,ornithorhynchus_anatinus:1);",
     "leafIds": [
-      "lepus_californicus",
-      "lepus_europaeus",
-      "lepus_arcticus",
-      "lepus_townsendii",
-      "lepus_americanus",
-      "lepus_timidus",
-      "sylvilagus_audubonii",
-      "sylvilagus_floridanus",
+      "didelphis_virginiana",
+      "macropus_giganteus",
       "oryctolagus_cuniculus",
-      "ochotona_princeps"
+      "mus_musculus",
+      "homo_sapiens",
+      "panthera_leo",
+      "balaenoptera_musculus",
+      "erinaceus_europaeus",
+      "loxodonta_africana",
+      "ornithorhynchus_anatinus"
     ]
   }
 }

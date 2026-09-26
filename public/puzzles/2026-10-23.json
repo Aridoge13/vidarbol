@@ -1,27 +1,20 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-23",
   "clade": "Passeriformes",
   "difficulty": "medium",
   "taxa": [
     {
-      "id": "erithacus_rubecula",
-      "name": "European robin",
-      "sci_name": "Erithacus rubecula",
-      "ott_id": 507122,
+      "id": "corvus_corax",
+      "name": "Common raven",
+      "sci_name": "Corvus corax",
+      "ott_id": 140425,
       "image": ""
     },
     {
-      "id": "taeniopygia_guttata",
-      "name": "Zebra finch",
-      "sci_name": "Taeniopygia guttata",
-      "ott_id": 708327,
-      "image": ""
-    },
-    {
-      "id": "hirundo_rustica",
-      "name": "Barn swallow",
-      "sci_name": "Hirundo rustica",
-      "ott_id": 1040135,
+      "id": "sturnus_vulgaris",
+      "name": "Common starling",
+      "sci_name": "Sturnus vulgaris",
+      "ott_id": 565813,
       "image": ""
     },
     {
@@ -32,17 +25,17 @@
       "image": ""
     },
     {
+      "id": "erithacus_rubecula",
+      "name": "European robin",
+      "sci_name": "Erithacus rubecula",
+      "ott_id": 507122,
+      "image": ""
+    },
+    {
       "id": "pica_pica",
       "name": "Eurasian magpie",
       "sci_name": "Pica pica",
       "ott_id": 776471,
-      "image": ""
-    },
-    {
-      "id": "turdus_merula",
-      "name": "Common blackbird",
-      "sci_name": "Turdus merula",
-      "ott_id": 568572,
       "image": ""
     },
     {
@@ -60,17 +53,24 @@
       "image": ""
     },
     {
-      "id": "sturnus_vulgaris",
-      "name": "Common starling",
-      "sci_name": "Sturnus vulgaris",
-      "ott_id": 565813,
+      "id": "hirundo_rustica",
+      "name": "Barn swallow",
+      "sci_name": "Hirundo rustica",
+      "ott_id": 1040135,
       "image": ""
     },
     {
-      "id": "corvus_corax",
-      "name": "Common raven",
-      "sci_name": "Corvus corax",
-      "ott_id": 140425,
+      "id": "turdus_merula",
+      "name": "Common blackbird",
+      "sci_name": "Turdus merula",
+      "ott_id": 568572,
+      "image": ""
+    },
+    {
+      "id": "taeniopygia_guttata",
+      "name": "Zebra finch",
+      "sci_name": "Taeniopygia guttata",
+      "ott_id": 708327,
       "image": ""
     }
   ],
