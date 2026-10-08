@@ -1,4 +1,5 @@
 import type { Taxon } from "../types/puzzle";
+import { OrganismDoodle } from "./OrganismDoodle";
 
 export const TAXON_MIME = "application/x-vidarbol-taxon";
 
@@ -37,7 +38,7 @@ export function OrganismChip({
                 if (!disabled) onSelect?.(taxon.id);
             }}
             className={[
-                "inline-flex max-w-full items-center rounded-full border px-3.5 py-1.5",
+                "inline-flex max-w-full items-center gap-2 rounded-full border py-1 pl-1.5 pr-3.5",
                 "text-sm transition-all duration-150",
                 "focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600/40 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f7f5f0]",
                 disabled
@@ -52,6 +53,7 @@ export function OrganismChip({
                 .filter(Boolean)
                 .join(" ")}
         >
+            <OrganismDoodle taxon={taxon} className="h-8 w-8 shrink-0" />
             <span className="flex flex-col items-start leading-tight">
                 <span className="truncate font-medium">{taxon.name}</span>
                 {taxon.sci_name !== taxon.name && (

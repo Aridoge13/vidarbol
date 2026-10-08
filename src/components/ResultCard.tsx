@@ -22,7 +22,9 @@ export function ResultCard({ dateKey, clade, result }: ResultCardProps) {
     return (
         <div
             style={{
-                width: 400,
+                width: "100%",
+                maxWidth: 400,
+                boxSizing: "border-box",
                 padding: 24,
                 backgroundColor: "#ffffff",
                 border: "1px solid #e2e8f0",

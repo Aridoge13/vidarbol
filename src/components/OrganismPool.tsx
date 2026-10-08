@@ -25,7 +25,6 @@ export function OrganismPool({
     return (
         <section
             aria-label="Unplaced organisms"
-            className="mx-auto max-w-xl px-4"
         >
             <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-stone-500">
                 Organisms
