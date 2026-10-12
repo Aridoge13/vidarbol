@@ -2,6 +2,8 @@
 
 **A daily puzzle about the tree of life.**
 
+![alt text](public/og-image.png)
+
 Every day, place a handful of living organisms on a phylogenetic tree. Your
 score is the percentage of evolutionary relationships you got right, and 55%
 or higher is a pass.
